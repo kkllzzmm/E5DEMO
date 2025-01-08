@@ -1,7 +1,7 @@
 注册Github账号之后打开下面的网址部署代码。
 
 https://github.dev/github/dev
-
+运行终端输入一下代码
 docker run -d \
   --name=chromium \
   --security-opt seccomp=unconfined `#optional` \
