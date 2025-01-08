@@ -1,0 +1,25 @@
+name: Daily Push
+
+on:
+  schedule:
+    - cron: '0 0/6 * * *' # 每天0点推送
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Random Quote
+      id: quote
+      uses: jakejarvis/random-quote@v1
+      
+    - name: Update README
+      run: |
+        echo "${{ steps.quote.outputs.value }}" >> README.md
+        git config --global user.name "Your Name"
+        git config --global user.email "your.email@example.com"
+        git add .
+        git commit -m "Update README with a new quote - $(date +"%Y-%m-%d")"
+        git push
