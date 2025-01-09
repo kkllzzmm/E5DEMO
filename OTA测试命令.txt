@@ -1,0 +1,73 @@
+OTA
+1.PBU先烧好24.35.13.70.11 (MCS V2.9.1 )作为原始版本，先不要配网；
+2.运行这个命令把要验证的bin文件推到机器里 ： adb push PBUT_FW_20240830_104520.bin /usr/share/stmcu/
+3.adb shell 进到PBU里，删除机器里原来的bin文件 ： rm -rf /usr/share/stmcu/PBUT_FW_20240822_V2.9.1.HUI.bin
+4.升级要验证的bin文件 ： test-wamp-client -c com.harman.mcu-cli.mcu-upgrade-file -a "{\"pos_args\":[\"/usr/share/stmcu/PBUT_FW_20240830_104520.bin\"]}"
+5.等待升级完成，PBU会更新为 24.35.13.70.11 (MCS 验证版本)
+6.等待OTA触发
+
+
+
+
+root  --->登录
+cat /sys/class/gpio/gpio430/value     --->查看是否存在，第一次都是不存在
+echo 430 > /sys/class/gpio/export    ---->创建GPIO38文件
+echo out > /sys/class/gpio/gpio430/direction    ---->设置GPIO38输出
+echo 1 > /sys/class/gpio/gpio430/value       ---->拉高GPIO38，（1-high  0-low）
+echo 0 > /sys/class/gpio/gpio430/value 
+
+adb shell reboot -f
+
+1234567000
+OTA版本测试
+删除sw版本  rm /usr/share/stmcu/*.bin
+
+查看有没有bin文件 ls /usr/share/stmcu/ -al
+OTA 测试
+1. adb pull sw_version.txt 
+2.修改sw_version.txt里面firmware :23.19.41.70.12，改为23.19.31.70.12
+--------------------------------上面2步只需1次---------------------------------------------
+3. adb push sw_version.txt ./
+4. adb reboot -f
+5 test-wamp-client -c com.harman.power.powerModeSet -a "{\"pos_args\":[\"poweroff_done\"]}"
+ 5.5  logcat -s peripheral-interface -s hm-ota &      ---log
+6. test-wamp-client -c com.harman.mcu-cli.testSilentOTA
+7. test-wamp-client -c com.harman.hmota.userTrigger -a "{\"pos_args\":[\"DFU_TEST\"]}"
+
+
+adb shell "test-wamp-client -n com.harman.mcu-cli.inputEvent -a \"{\\\"pos_args\\\":[\\\"self_tuning_disable\\\"]}\""			EQ测试
+adb shell "test-wamp-client -n com.harman.mcu-cli.inputEvent -a \"{\\\"pos_args\\\":[\\\"self_tuning_enable\\\"]}\""
+
+
+
+重置Airplay key
+
+输入这个命令后重启，然后在one app里面reset airplay就可以自动有key了：
+echo "fcdfc2d3-5d2b-470a-961f-32709b958318" > /data/etc/license 
+
+
+
+执行rm /data/adb_enable重启----删除ADB接口
+
+
+
+analyticData.log
+
+1.   进入机器 adb shell
+2. rm -rf /data/audio-ui/analytics/lastUploadDate
+3.sync                             test-wamp-client -c com.harman.aui.reboot
+4.等待十秒左右，把机器断电重启；
+5.机器重启后，按Jira上面的操作，做一些调整音量，按bassboot的操作；
+6.adb shell进入机器，test-wamp-client -n com.harman.analytics.triggerEvent
+7.关注和mcs端接收上报触发指令 0xB3， logcat -s analytics.exe
+
+standby
+1、设置neverstandby： test-wamp-client -c com.harman.singleConfig.set  -a "{\"nam_args\": {\"type\":\"Standby Time\",\"value\":4}}"
+2、立即进standby：test-wamp-client -c com.harman.power.powerModeSet -a "{\"pos_args\":[\"poweroff_done\"]}"
+
+test-wamp-client -c com.harman.singleConfig.set  -a "{\"nam_args\": {\"type\":\"Standby Time\",\"value\":5}}"
+
+
+
+
+
