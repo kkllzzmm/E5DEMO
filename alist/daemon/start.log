@@ -1,0 +1,1026 @@
+[36mINFO[0m[2024-11-07 09:42:55] reading config file: E:\__easyHelper__\alist-windows-amd64\data\config.json 
+[36mINFO[0m[2024-11-07 09:42:55] config file not exists, creating default config file 
+[36mINFO[0m[2024-11-07 09:42:55] load config from env with prefix: ALIST_     
+[36mINFO[0m[2024-11-07 09:42:55] init logrus...                               
+[36mINFO[0m[2024-11-07 09:42:55] Successfully created the admin user and the initial password is: qTd7aAo1 
+[36mINFO[0m[2024-11-07 09:42:55] init tool pikpak success: ok                 
+[33mWARN[0m[2024-11-07 09:42:55] init tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[33mWARN[0m[2024-11-07 09:42:55] init tool transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp 127.0.0.1:9091: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-07 09:42:55] init tool 115 Cloud success: ok              
+[33mWARN[0m[2024-11-07 09:42:55] init tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp 127.0.0.1:6800: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-07 09:42:55] init tool SimpleHttp success: ok             
+[36mINFO[0m[2024-11-07 09:42:55] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2024-11-07 10:06:24] Shutdown server...                           
+[36mINFO[0m[2024-11-07 10:06:24] Server exit                                  
+[36mINFO[0m[2024-11-07 10:40:51] reading config file: E:\__easyHelper__\alist-windows-amd64\data\config.json 
+[36mINFO[0m[2024-11-07 10:40:51] load config from env with prefix: ALIST_     
+[36mINFO[0m[2024-11-07 10:40:51] init logrus...                               
+[33mWARN[0m[2024-11-07 10:40:51] init tool transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp 127.0.0.1:9091: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-07 10:40:51] init tool 115 Cloud success: ok              
+[33mWARN[0m[2024-11-07 10:40:51] init tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp 127.0.0.1:6800: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-07 10:40:51] init tool SimpleHttp success: ok             
+[36mINFO[0m[2024-11-07 10:40:51] init tool pikpak success: ok                 
+[33mWARN[0m[2024-11-07 10:40:51] init tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-07 10:40:51] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2024-11-07 10:40:51] success load storage: [/E:/alist/123], driver: [123Pan], order: [0] 
+[36mINFO[0m[2024-11-08 15:06:09] reading config file: E:\__easyHelper__\alist-windows-amd64\data\config.json 
+[36mINFO[0m[2024-11-08 15:06:10] load config from env with prefix: ALIST_     
+[36mINFO[0m[2024-11-08 15:06:10] init logrus...                               
+[33mWARN[0m[2024-11-08 15:06:10] init tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp 127.0.0.1:6800: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-08 15:06:10] init tool SimpleHttp success: ok             
+[36mINFO[0m[2024-11-08 15:06:10] init tool pikpak success: ok                 
+[33mWARN[0m[2024-11-08 15:06:10] init tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[33mWARN[0m[2024-11-08 15:06:10] init tool transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp 127.0.0.1:9091: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-08 15:06:10] init tool 115 Cloud success: ok              
+[36mINFO[0m[2024-11-08 15:06:10] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2024-11-08 15:06:10] success load storage: [/E:/alist/123], driver: [123Pan], order: [0] 
+runtime: VirtualAlloc of 1300234240 bytes failed with errno=1455
+fatal error: out of memory
+
+runtime stack:
+runtime.throw({0x2c58a11?, 0xc158aad000?})
+	/usr/local/go/src/runtime/panic.go:1067 +0x4d fp=0x860a1ff508 sp=0x860a1ff4d8 pc=0x7f704d
+runtime.sysUsedOS(0xc10fd50000, 0x4d800000)
+	/usr/local/go/src/runtime/mem_windows.go:83 +0x1bb fp=0x860a1ff568 sp=0x860a1ff508 pc=0x798e7b
+runtime.sysUsed(...)
+	/usr/local/go/src/runtime/mem.go:77
+runtime.(*mheap).allocSpan(0x5416640, 0x26c00, 0x0, 0x1)
+	/usr/local/go/src/runtime/mheap.go:1345 +0x487 fp=0x860a1ff610 sp=0x860a1ff568 pc=0x7abd67
+runtime.(*mheap).alloc.func1()
+	/usr/local/go/src/runtime/mheap.go:962 +0x5c fp=0x860a1ff658 sp=0x860a1ff610 pc=0x7ab51c
+runtime.systemstack(0xc000e1b6c0)
+	/usr/local/go/src/runtime/asm_amd64.s:514 +0x49 fp=0x860a1ff668 sp=0x860a1ff658 pc=0x7fdfa9
+
+goroutine 352 gp=0xc000b04a80 m=9 mp=0xc000ab3808 [running]:
+runtime.systemstack_switch()
+	/usr/local/go/src/runtime/asm_amd64.s:479 +0x8 fp=0xc000b83948 sp=0xc000b83938 pc=0x7fdf48
+runtime.(*mheap).alloc(0x4d800000?, 0x26c00?, 0x0?)
+	/usr/local/go/src/runtime/mheap.go:956 +0x5b fp=0xc000b83990 sp=0xc000b83948 pc=0x7ab47b
+runtime.(*mcache).allocLarge(0xc000b83a40?, 0x4d800000, 0x1)
+	/usr/local/go/src/runtime/mcache.go:234 +0x87 fp=0xc000b839e0 sp=0xc000b83990 pc=0x797c27
+runtime.mallocgc(0x4d800000, 0x0, 0x0)
+	/usr/local/go/src/runtime/malloc.go:1177 +0x5d0 fp=0xc000b83a80 sp=0xc000b839e0 pc=0x7f1650
+runtime.growslice(0x0, 0xb28ad0?, 0xc000e32380?, 0xc0009b0000?, 0xc000683b68?)
+	/usr/local/go/src/runtime/slice.go:264 +0x5c9 fp=0xc000b83af0 sp=0xc000b83a80 pc=0x7f96c9
+bytes.growSlice({0xc072850000, 0x26c00000, 0x0?}, 0xc000b83bd8?)
+	/usr/local/go/src/bytes/buffer.go:249 +0x93 fp=0xc000b83b80 sp=0xc000b83af0 pc=0x8ca133
+bytes.(*Buffer).grow(0xc0007c8750, 0x4000)
+	/usr/local/go/src/bytes/buffer.go:151 +0x13d fp=0xc000b83bb8 sp=0xc000b83b80 pc=0x8c9b5d
+bytes.(*Buffer).Write(0xc0007c8750, {0xc0009b0000, 0x4000, 0xc0009b0000?})
+	/usr/local/go/src/bytes/buffer.go:179 +0x59 fp=0xc000b83be8 sp=0xc000b83bb8 pc=0x8c9d39
+github.com/alist-org/alist/v3/internal/net.(*Buf).Write(0xc0007c87e0, {0xc0009b0000, 0x4000, 0x10000})
+	/source/internal/net/request.go:516 +0xdd fp=0xc000b83c58 sp=0xc000b83be8 pc=0xff803d
+io.copyBuffer({0x409bc60, 0xc0007c87e0}, {0x1a44e3741f8, 0xc0007ef120}, {0xc0009b0000, 0x10000, 0x10000})
+	/usr/local/go/src/io/io.go:431 +0x1de fp=0xc000b83cd0 sp=0xc000b83c58 pc=0x840afe
+io.CopyBuffer({0x409bc60?, 0xc0007c87e0?}, {0x1a44e3741f8?, 0xc0007ef120?}, {0xc0009b0000?, 0xff723a?, 0xc0004b18f0?})
+	/usr/local/go/src/io/io.go:402 +0x36 fp=0xc000b83d18 sp=0xc000b83cd0 pc=0x840896
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBuffer({0x409bc60, 0xc0007c87e0}, {0x1a44e3741f8, 0xc0007ef120})
+	/source/pkg/utils/io.go:218 +0x11b fp=0xc000b83dc8 sp=0xc000b83d18 pc=0xbce57b
+github.com/alist-org/alist/v3/internal/net.(*downloader).tryDownloadChunk(0xc000382dc0, 0xc000dd65c0?, 0xc000dd65c0)
+	/source/internal/net/request.go:275 +0x16e fp=0xc000b83e88 sp=0xc000b83dc8 pc=0xff6eae
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadChunk(0xc000382dc0, 0xc000dd65c0)
+	/source/internal/net/request.go:232 +0x1a5 fp=0xc000b83f58 sp=0xc000b83e88 pc=0xff6be5
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadPart(0xc000382dc0)
+	/source/internal/net/request.go:216 +0xde fp=0xc000b83fc8 sp=0xc000b83f58 pc=0xff69fe
+github.com/alist-org/alist/v3/internal/net.(*downloader).download.gowrap1()
+	/source/internal/net/request.go:148 +0x25 fp=0xc000b83fe0 sp=0xc000b83fc8 pc=0xff6585
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000b83fe8 sp=0xc000b83fe0 pc=0x7fff81
+created by github.com/alist-org/alist/v3/internal/net.(*downloader).download in goroutine 294
+	/source/internal/net/request.go:148 +0x219
+
+goroutine 1 gp=0xc000066000 m=nil [chan receive, 172 minutes]:
+runtime.gopark(0x1906c85?, 0x28181a0?, 0x1?, 0x15?, 0xc00067fa98?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000e79a08 sp=0xc000e799e8 pc=0x7f716e
+runtime.chanrecv(0xc0002e95e0, 0x0, 0x1)
+	/usr/local/go/src/runtime/chan.go:639 +0x41e fp=0xc000e79a80 sp=0xc000e79a08 pc=0x78b15e
+runtime.chanrecv1(0xc0002e95e0?, 0xc00067fc08?)
+	/usr/local/go/src/runtime/chan.go:489 +0x12 fp=0xc000e79aa8 sp=0xc000e79a80 pc=0x78ad12
+github.com/alist-org/alist/v3/cmd.init.func8(0xc000801d00?, {0x2c3e375?, 0x4?, 0x2c3e36d?})
+	/source/cmd/server.go:122 +0xa26 fp=0xc000e79c98 sp=0xc000e79aa8 pc=0x20fe4e6
+github.com/spf13/cobra.(*Command).execute(0x2479560, {0xc000a9c020, 0x1, 0x1})
+	/go/pkg/mod/github.com/spf13/cobra@v1.8.1/command.go:989 +0xa91 fp=0xc000e79e20 sp=0xc000e79c98 pc=0xd89f51
+github.com/spf13/cobra.(*Command).ExecuteC(0x2479280)
+	/go/pkg/mod/github.com/spf13/cobra@v1.8.1/command.go:1117 +0x3ff fp=0xc000e79ef8 sp=0xc000e79e20 pc=0xd8a83f
+github.com/spf13/cobra.(*Command).Execute(...)
+	/go/pkg/mod/github.com/spf13/cobra@v1.8.1/command.go:1041
+github.com/alist-org/alist/v3/cmd.Execute()
+	/source/cmd/root.go:22 +0x1a fp=0xc000e79f40 sp=0xc000e79ef8 pc=0x2101e1a
+main.main()
+	/source/main.go:6 +0xf fp=0xc000e79f50 sp=0xc000e79f40 pc=0x2103acf
+runtime.main()
+	/usr/local/go/src/runtime/proc.go:272 +0x27d fp=0xc000e79fe0 sp=0xc000e79f50 pc=0x7c201d
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000e79fe8 sp=0xc000e79fe0 pc=0x7fff81
+
+goroutine 2 gp=0xc000066700 m=nil [force gc (idle), 4 minutes]:
+runtime.gopark(0x1e65b5650e08?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000069fa8 sp=0xc000069f88 pc=0x7f716e
+runtime.goparkunlock(...)
+	/usr/local/go/src/runtime/proc.go:430
+runtime.forcegchelper()
+	/usr/local/go/src/runtime/proc.go:337 +0xb8 fp=0xc000069fe0 sp=0xc000069fa8 pc=0x7c2338
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000069fe8 sp=0xc000069fe0 pc=0x7fff81
+created by runtime.init.7 in goroutine 1
+	/usr/local/go/src/runtime/proc.go:325 +0x1a
+
+goroutine 18 gp=0xc0000861c0 m=nil [GC sweep wait]:
+runtime.gopark(0x5407601?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000091f80 sp=0xc000091f60 pc=0x7f716e
+runtime.goparkunlock(...)
+	/usr/local/go/src/runtime/proc.go:430
+runtime.bgsweep(0xc000088000)
+	/usr/local/go/src/runtime/mgcsweep.go:317 +0xdf fp=0xc000091fc8 sp=0xc000091f80 pc=0x7a7d1f
+runtime.gcenable.gowrap1()
+	/usr/local/go/src/runtime/mgc.go:203 +0x25 fp=0xc000091fe0 sp=0xc000091fc8 pc=0x79c225
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000091fe8 sp=0xc000091fe0 pc=0x7fff81
+created by runtime.gcenable in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:203 +0x66
+
+goroutine 19 gp=0xc000086380 m=nil [GC scavenge wait]:
+runtime.gopark(0x100270?, 0xb9ae8?, 0x0?, 0x0?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000093f78 sp=0xc000093f58 pc=0x7f716e
+runtime.goparkunlock(...)
+	/usr/local/go/src/runtime/proc.go:430
+runtime.(*scavengerState).park(0x5409ce0)
+	/usr/local/go/src/runtime/mgcscavenge.go:425 +0x49 fp=0xc000093fa8 sp=0xc000093f78 pc=0x7a56e9
+runtime.bgscavenge(0xc000088000)
+	/usr/local/go/src/runtime/mgcscavenge.go:658 +0x59 fp=0xc000093fc8 sp=0xc000093fa8 pc=0x7a5c79
+runtime.gcenable.gowrap2()
+	/usr/local/go/src/runtime/mgc.go:204 +0x25 fp=0xc000093fe0 sp=0xc000093fc8 pc=0x79c1c5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000093fe8 sp=0xc000093fe0 pc=0x7fff81
+created by runtime.gcenable in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:204 +0xa5
+
+goroutine 20 gp=0xc000086700 m=nil [finalizer wait, 1 minutes]:
+runtime.gopark(0x0?, 0xc000dc46f0?, 0x0?, 0x40?, 0x1000000010?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00008de20 sp=0xc00008de00 pc=0x7f716e
+runtime.runfinq()
+	/usr/local/go/src/runtime/mfinal.go:193 +0x107 fp=0xc00008dfe0 sp=0xc00008de20 pc=0x79b2e7
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00008dfe8 sp=0xc00008dfe0 pc=0x7fff81
+created by runtime.createfing in goroutine 1
+	/usr/local/go/src/runtime/mfinal.go:163 +0x3d
+
+goroutine 21 gp=0xc00032c1c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x1e76c99482a8?, 0x1?, 0x70?, 0x5f?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00006df38 sp=0xc00006df18 pc=0x7f716e
+runtime.gcBgMarkWorker(0xc00009a230)
+	/usr/local/go/src/runtime/mgc.go:1363 +0xe9 fp=0xc00006dfc8 sp=0xc00006df38 pc=0x79e5c9
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/usr/local/go/src/runtime/mgc.go:1279 +0x25 fp=0xc00006dfe0 sp=0xc00006dfc8 pc=0x79e4a5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00006dfe8 sp=0xc00006dfe0 pc=0x7fff81
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:1279 +0x105
+
+goroutine 34 gp=0xc000484000 m=nil [GC worker (idle), 1 minutes]:
+runtime.gopark(0x1e6aed960b88?, 0x1?, 0x84?, 0xa4?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00048bf38 sp=0xc00048bf18 pc=0x7f716e
+runtime.gcBgMarkWorker(0xc00009a230)
+	/usr/local/go/src/runtime/mgc.go:1363 +0xe9 fp=0xc00048bfc8 sp=0xc00048bf38 pc=0x79e5c9
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/usr/local/go/src/runtime/mgc.go:1279 +0x25 fp=0xc00048bfe0 sp=0xc00048bfc8 pc=0x79e4a5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00048bfe8 sp=0xc00048bfe0 pc=0x7fff81
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:1279 +0x105
+
+goroutine 3 gp=0xc000066c40 m=nil [GC worker (idle)]:
+runtime.gopark(0x1e76c99482a8?, 0x1?, 0xcc?, 0xe3?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00006bf38 sp=0xc00006bf18 pc=0x7f716e
+runtime.gcBgMarkWorker(0xc00009a230)
+	/usr/local/go/src/runtime/mgc.go:1363 +0xe9 fp=0xc00006bfc8 sp=0xc00006bf38 pc=0x79e5c9
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/usr/local/go/src/runtime/mgc.go:1279 +0x25 fp=0xc00006bfe0 sp=0xc00006bfc8 pc=0x79e4a5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00006bfe8 sp=0xc00006bfe0 pc=0x7fff81
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:1279 +0x105
+
+goroutine 22 gp=0xc00032c380 m=nil [GC worker (idle)]:
+runtime.gopark(0x1e76c99482a8?, 0x1?, 0xa4?, 0xa9?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00008ff38 sp=0xc00008ff18 pc=0x7f716e
+runtime.gcBgMarkWorker(0xc00009a230)
+	/usr/local/go/src/runtime/mgc.go:1363 +0xe9 fp=0xc00008ffc8 sp=0xc00008ff38 pc=0x79e5c9
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/usr/local/go/src/runtime/mgc.go:1279 +0x25 fp=0xc00008ffe0 sp=0xc00008ffc8 pc=0x79e4a5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00008ffe8 sp=0xc00008ffe0 pc=0x7fff81
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:1279 +0x105
+
+goroutine 35 gp=0xc000066e00 m=nil [chan receive]:
+runtime.gopark(0xc000489f60?, 0x8e08a5?, 0x70?, 0x5?, 0x40df6a0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000489f18 sp=0xc000489ef8 pc=0x7f716e
+runtime.chanrecv(0xc0004d0000, 0x0, 0x1)
+	/usr/local/go/src/runtime/chan.go:639 +0x41e fp=0xc000489f90 sp=0xc000489f18 pc=0x78b15e
+runtime.chanrecv1(0x0?, 0x0?)
+	/usr/local/go/src/runtime/chan.go:489 +0x12 fp=0xc000489fb8 sp=0xc000489f90 pc=0x78ad12
+runtime.unique_runtime_registerUniqueMapCleanup.func1(...)
+	/usr/local/go/src/runtime/mgc.go:1732
+runtime.unique_runtime_registerUniqueMapCleanup.gowrap1()
+	/usr/local/go/src/runtime/mgc.go:1735 +0x2f fp=0xc000489fe0 sp=0xc000489fb8 pc=0x79f2cf
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000489fe8 sp=0xc000489fe0 pc=0x7fff81
+created by unique.runtime_registerUniqueMapCleanup in goroutine 1
+	/usr/local/go/src/runtime/mgc.go:1730 +0x96
+
+goroutine 23 gp=0xc000484700 m=nil [select, 172 minutes]:
+runtime.gopark(0xc000487f98?, 0x2?, 0x0?, 0x0?, 0xc000487f94?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000487e38 sp=0xc000487e18 pc=0x7f716e
+runtime.selectgo(0xc000487f98, 0xc000487f90, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000487f60 sp=0xc000487e38 pc=0x7d3da5
+github.com/blevesearch/bleve_index_api.AnalysisWorker(...)
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:46
+github.com/blevesearch/bleve_index_api.NewAnalysisQueue.gowrap1()
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0x8e fp=0xc000487fe0 sp=0xc000487f60 pc=0x11d148e
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000487fe8 sp=0xc000487fe0 pc=0x7fff81
+created by github.com/blevesearch/bleve_index_api.NewAnalysisQueue in goroutine 1
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0xa5
+
+goroutine 24 gp=0xc0004848c0 m=nil [select, 172 minutes]:
+runtime.gopark(0xc00048df98?, 0x2?, 0x0?, 0x0?, 0xc00048df94?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00048de38 sp=0xc00048de18 pc=0x7f716e
+runtime.selectgo(0xc00048df98, 0xc00048df90, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc00048df60 sp=0xc00048de38 pc=0x7d3da5
+github.com/blevesearch/bleve_index_api.AnalysisWorker(...)
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:46
+github.com/blevesearch/bleve_index_api.NewAnalysisQueue.gowrap1()
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0x8e fp=0xc00048dfe0 sp=0xc00048df60 pc=0x11d148e
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00048dfe8 sp=0xc00048dfe0 pc=0x7fff81
+created by github.com/blevesearch/bleve_index_api.NewAnalysisQueue in goroutine 1
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0xa5
+
+goroutine 25 gp=0xc000485500 m=nil [select, 172 minutes]:
+runtime.gopark(0xc0008e7f98?, 0x2?, 0x0?, 0x0?, 0xc0008e7f94?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008e7e38 sp=0xc0008e7e18 pc=0x7f716e
+runtime.selectgo(0xc0008e7f98, 0xc0008e7f90, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008e7f60 sp=0xc0008e7e38 pc=0x7d3da5
+github.com/blevesearch/bleve_index_api.AnalysisWorker(...)
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:46
+github.com/blevesearch/bleve_index_api.NewAnalysisQueue.gowrap1()
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0x8e fp=0xc0008e7fe0 sp=0xc0008e7f60 pc=0x11d148e
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008e7fe8 sp=0xc0008e7fe0 pc=0x7fff81
+created by github.com/blevesearch/bleve_index_api.NewAnalysisQueue in goroutine 1
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0xa5
+
+goroutine 26 gp=0xc0004856c0 m=nil [select, 172 minutes]:
+runtime.gopark(0xc0008e9f98?, 0x2?, 0x0?, 0x0?, 0xc0008e9f94?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008e9e38 sp=0xc0008e9e18 pc=0x7f716e
+runtime.selectgo(0xc0008e9f98, 0xc0008e9f90, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008e9f60 sp=0xc0008e9e38 pc=0x7d3da5
+github.com/blevesearch/bleve_index_api.AnalysisWorker(...)
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:46
+github.com/blevesearch/bleve_index_api.NewAnalysisQueue.gowrap1()
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0x8e fp=0xc0008e9fe0 sp=0xc0008e9f60 pc=0x11d148e
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008e9fe8 sp=0xc0008e9fe0 pc=0x7fff81
+created by github.com/blevesearch/bleve_index_api.NewAnalysisQueue in goroutine 1
+	/go/pkg/mod/github.com/blevesearch/bleve_index_api@v1.1.10/analysis.go:38 +0xa5
+
+goroutine 37 gp=0xc000485880 m=nil [select, 172 minutes]:
+runtime.gopark(0xc0008e3f88?, 0x2?, 0x98?, 0x5?, 0xc0008e3f84?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008e3e28 sp=0xc0008e3e08 pc=0x7f716e
+runtime.selectgo(0xc0008e3f88, 0xc0008e3f80, 0x789ed7?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008e3f50 sp=0xc0008e3e28 pc=0x7d3da5
+database/sql.(*DB).connectionOpener(0xc000381a00, {0x40b0a08, 0xc000412460})
+	/usr/local/go/src/database/sql/sql.go:1253 +0x87 fp=0xc0008e3fb8 sp=0xc0008e3f50 pc=0xc59307
+database/sql.OpenDB.gowrap1()
+	/usr/local/go/src/database/sql/sql.go:833 +0x28 fp=0xc0008e3fe0 sp=0xc0008e3fb8 pc=0xc57628
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008e3fe8 sp=0xc0008e3fe0 pc=0x7fff81
+created by database/sql.OpenDB in goroutine 1
+	/usr/local/go/src/database/sql/sql.go:833 +0x130
+
+goroutine 28 gp=0xc000485a40 m=nil [select, 4 minutes]:
+runtime.gopark(0xc0008e5f90?, 0x2?, 0x40?, 0x1d?, 0xc0008e5f64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008e5e00 sp=0xc0008e5de0 pc=0x7f716e
+runtime.selectgo(0xc0008e5f90, 0xc0008e5f60, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008e5f28 sp=0xc0008e5e00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc0008e5fe0 sp=0xc0008e5f28 pc=0xd36665
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008e5fe8 sp=0xc0008e5fe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 29 gp=0xc000485c00 m=nil [select, 4 minutes]:
+runtime.gopark(0xc000891f90?, 0x2?, 0x18?, 0x1f?, 0xc000891f64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000891e00 sp=0xc000891de0 pc=0x7f716e
+runtime.selectgo(0xc000891f90, 0xc000891f60, 0x2265736f70736e61?, 0x0, 0x2274657366664f22?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000891f28 sp=0xc000891e00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc000891fe0 sp=0xc000891f28 pc=0xd35885
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000891fe8 sp=0xc000891fe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 30 gp=0xc000485dc0 m=nil [select, 4 minutes]:
+runtime.gopark(0xc000893f90?, 0x2?, 0x18?, 0x3f?, 0xc000893f64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000893e00 sp=0xc000893de0 pc=0x7f716e
+runtime.selectgo(0xc000893f90, 0xc000893f60, 0x6e6172546e49222c?, 0x0, 0x7d65736c61?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000893f28 sp=0xc000893e00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc000893fe0 sp=0xc000893f28 pc=0xd35885
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000893fe8 sp=0xc000893fe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 31 gp=0xc000066fc0 m=nil [select, 4 minutes]:
+runtime.gopark(0xc00088df90?, 0x2?, 0x18?, 0xdf?, 0xc00088df64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00088de00 sp=0xc00088dde0 pc=0x7f716e
+runtime.selectgo(0xc00088df90, 0xc00088df60, 0x6e6172546e49222c?, 0x0, 0x7d65736c61?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc00088df28 sp=0xc00088de00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc00088dfe0 sp=0xc00088df28 pc=0xd35885
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00088dfe8 sp=0xc00088dfe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 32 gp=0xc000067180 m=nil [select, 4 minutes]:
+runtime.gopark(0xc00088ff90?, 0x2?, 0x70?, 0x11?, 0xc00088ff64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00088fe00 sp=0xc00088fde0 pc=0x7f716e
+runtime.selectgo(0xc00088ff90, 0xc00088ff60, 0x6e6172546e49222c?, 0x0, 0x4f227b7d65736c61?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc00088ff28 sp=0xc00088fe00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc00088ffe0 sp=0xc00088ff28 pc=0xd33aa5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00088ffe8 sp=0xc00088ffe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 33 gp=0xc000067340 m=nil [select, 4 minutes]:
+runtime.gopark(0xc0008adf90?, 0x2?, 0x18?, 0xdf?, 0xc0008adf64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008ade00 sp=0xc0008adde0 pc=0x7f716e
+runtime.selectgo(0xc0008adf90, 0xc0008adf60, 0xc000350a20?, 0x0, 0xc000350ae0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008adf28 sp=0xc0008ade00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc0008adfe0 sp=0xc0008adf28 pc=0xd35885
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008adfe8 sp=0xc0008adfe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 50 gp=0xc000067500 m=nil [select, 4 minutes]:
+runtime.gopark(0xc0008aff90?, 0x2?, 0xb9?, 0xca?, 0xc0008aff64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008afe00 sp=0xc0008afde0 pc=0x7f716e
+runtime.selectgo(0xc0008aff90, 0xc0008aff60, 0xc0004543c0?, 0x0, 0xc00037b440?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008aff28 sp=0xc0008afe00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc0008affe0 sp=0xc0008aff28 pc=0x1fbe5c5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008affe8 sp=0xc0008affe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 51 gp=0xc0000676c0 m=nil [select, 4 minutes]:
+runtime.gopark(0xc0008a9f90?, 0x2?, 0x59?, 0xc8?, 0xc0008a9f64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008a9e00 sp=0xc0008a9de0 pc=0x7f716e
+runtime.selectgo(0xc0008a9f90, 0xc0008a9f60, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008a9f28 sp=0xc0008a9e00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc0008a9fe0 sp=0xc0008a9f28 pc=0xdce1a5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008a9fe8 sp=0xc0008a9fe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 52 gp=0xc00032c8c0 m=nil [select, 4 minutes]:
+runtime.gopark(0xc0008abf90?, 0x2?, 0x90?, 0x64?, 0xc0008abf64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008abe00 sp=0xc0008abde0 pc=0x7f716e
+runtime.selectgo(0xc0008abf90, 0xc0008abf60, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008abf28 sp=0xc0008abe00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc0008abfe0 sp=0xc0008abf28 pc=0x1fde125
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008abfe8 sp=0xc0008abfe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 53 gp=0xc00032cfc0 m=nil [select, 4 minutes]:
+runtime.gopark(0xc000a73f90?, 0x2?, 0x18?, 0x3f?, 0xc000a73f64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000a73e00 sp=0xc000a73de0 pc=0x7f716e
+runtime.selectgo(0xc000a73f90, 0xc000a73f60, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000a73f28 sp=0xc000a73e00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc000a73fe0 sp=0xc000a73f28 pc=0x11c2285
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000a73fe8 sp=0xc000a73fe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 54 gp=0xc00032d180 m=nil [select, 4 minutes]:
+runtime.gopark(0xc000a75f90?, 0x2?, 0x18?, 0x5f?, 0xc000a75f64?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000a75e00 sp=0xc000a75de0 pc=0x7f716e
+runtime.selectgo(0xc000a75f90, 0xc000a75f60, 0x0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000a75f28 sp=0xc000a75e00 pc=0x7d3da5
+github.com/Xhofe/go-cache.NewMemCache[...].func1()
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:113 +0xc5 fp=0xc000a75fe0 sp=0xc000a75f28 pc=0x2040805
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000a75fe8 sp=0xc000a75fe0 pc=0x7fff81
+created by github.com/Xhofe/go-cache.NewMemCache[...] in goroutine 1
+	/go/pkg/mod/github.com/!xhofe/go-cache@v0.0.0-20240804043513-b1a71927bc21/cache.go:109 +0x299
+
+goroutine 91 gp=0xc000c9d500 m=nil [chan receive, 172 minutes]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000ca1f08 sp=0xc000ca1ee8 pc=0x7f716e
+runtime.chanrecv(0xc000b25d50, 0xc000ca1fbf, 0x1)
+	/usr/local/go/src/runtime/chan.go:639 +0x41e fp=0xc000ca1f80 sp=0xc000ca1f08 pc=0x78b15e
+runtime.chanrecv2(0xc000003380?, 0x0?)
+	/usr/local/go/src/runtime/chan.go:494 +0x12 fp=0xc000ca1fa8 sp=0xc000ca1f80 pc=0x78ad32
+github.com/natefinch/lumberjack.(*Logger).millRun(...)
+	/go/pkg/mod/github.com/natefinch/lumberjack@v2.0.0+incompatible/lumberjack.go:379
+github.com/natefinch/lumberjack.(*Logger).mill.func1.gowrap1()
+	/go/pkg/mod/github.com/natefinch/lumberjack@v2.0.0+incompatible/lumberjack.go:390 +0x49 fp=0xc000ca1fe0 sp=0xc000ca1fa8 pc=0x15672e9
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000ca1fe8 sp=0xc000ca1fe0 pc=0x7fff81
+created by github.com/natefinch/lumberjack.(*Logger).mill.func1 in goroutine 1
+	/go/pkg/mod/github.com/natefinch/lumberjack@v2.0.0+incompatible/lumberjack.go:390 +0x96
+
+goroutine 282 gp=0xc000cde000 m=nil [chan send, 1 minutes]:
+runtime.gopark(0xc0008cacd8?, 0xa96a65?, 0x0?, 0x42?, 0xc0008ea000?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008cac78 sp=0xc0008cac58 pc=0x7f716e
+runtime.chansend(0xc0003240e0, 0xc000b5a088, 0x1, 0xc0008cad01?)
+	/usr/local/go/src/runtime/chan.go:270 +0x38d fp=0xc0008cace8 sp=0xc0008cac78 pc=0x78a26d
+runtime.chansend1(0x0?, 0xc0004b0988?)
+	/usr/local/go/src/runtime/chan.go:156 +0x17 fp=0xc0008cad18 sp=0xc0008cace8 pc=0x789ed7
+github.com/alist-org/alist/v3/internal/net.(*downloader).sendChunkTask(...)
+	/source/internal/net/request.go:164
+github.com/alist-org/alist/v3/internal/net.(*downloader).finishBuf(0xc0004d00e0?, 0x0?)
+	/source/internal/net/request.go:197 +0x131 fp=0xc0008cad50 sp=0xc0008cad18 pc=0xff6891
+github.com/alist-org/alist/v3/internal/net.(*downloader).finishBuf-fm(0xc0004b0960?)
+	<autogenerated>:1 +0x26 fp=0xc0008cad70 sp=0xc0008cad50 pc=0xffb926
+github.com/alist-org/alist/v3/internal/net.MultiReadCloser.Read({0xc000a9c090?, 0xc000a9c070?, 0xc000a9c080?}, {0xc0008ea000?, 0x0?, 0x0?})
+	/source/internal/net/request.go:433 +0x107 fp=0xc0008cadf0 sp=0xc0008cad70 pc=0xff7a87
+github.com/alist-org/alist/v3/internal/net.(*MultiReadCloser).Read(0xc0003841c0?, {0xc0008ea000?, 0x1a408cc0108?, 0xc0008caee8?})
+	<autogenerated>:1 +0x47 fp=0xc0008cae30 sp=0xc0008cadf0 pc=0xffb847
+io.(*LimitedReader).Read(0xc000834018, {0xc0008ea000?, 0x10000?, 0x10000?})
+	/usr/local/go/src/io/io.go:479 +0x43 fp=0xc0008cae60 sp=0xc0008cae30 pc=0x840d43
+io.copyBuffer({0x1a44e378658, 0xc0001e4800}, {0x4096c80, 0xc000834018}, {0xc0008ea000, 0x10000, 0x10000})
+	/usr/local/go/src/io/io.go:429 +0x191 fp=0xc0008caed8 sp=0xc0008cae60 pc=0x840ab1
+io.CopyBuffer({0x1a44e378658?, 0xc0001e4800?}, {0x4096c80?, 0xc000834018?}, {0xc0008ea000?, 0xc0008caf70?, 0x1a408cc0108?})
+	/usr/local/go/src/io/io.go:402 +0x36 fp=0xc0008caf20 sp=0xc0008caed8 pc=0x840896
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBuffer({0x1a44e378658, 0xc0001e4800}, {0x4096c80, 0xc000834018})
+	/source/pkg/utils/io.go:218 +0x11b fp=0xc0008cafd0 sp=0xc0008caf20 pc=0xbce57b
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBufferN({0x1a44e378658, 0xc0001e4800}, {0x1a44e476710, 0xc000834000}, 0x7fffffff)
+	/source/pkg/utils/io.go:226 +0x85 fp=0xc0008cb000 sp=0xc0008cafd0 pc=0xbce745
+github.com/alist-org/alist/v3/internal/net.ServeHTTP({0x1a44e375258, 0xc0001e4800}, 0xc0007e4280, {0xc0009e61e0, 0x56}, {0x0?, 0x0?, 0x5409660?}, 0x792a8b670, 0xc000a3a330)
+	/source/internal/net/serve.go:187 +0xdac fp=0xc0008cb248 sp=0xc0008cb000 pc=0xff8f2c
+github.com/alist-org/alist/v3/server/common.Proxy({0x1a44e375258, 0xc0001e4800}, 0xc0007e4280, 0xc000b6e0c0, {0x40bad38, 0xc000b17180})
+	/source/server/common/proxy.go:56 +0x44e fp=0xc0008cb4e0 sp=0xc0008cb248 pc=0x11beb4e
+github.com/alist-org/alist/v3/server/handles.Proxy(0xc0001e4800)
+	/source/server/handles/down.go:112 +0x605 fp=0xc0008cb630 sp=0xc0008cb4e0 pc=0x2028145
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.Down(0xc0001e4800)
+	/source/server/middlewares/down.go:40 +0x2bb fp=0xc0008cb6e8 sp=0xc0008cb630 pc=0x1ff501b
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded(0xc0001e4800)
+	/source/server/middlewares/check.go:14 +0xbb fp=0xc0008cb7c0 sp=0xc0008cb6e8 pc=0x1ff4adb
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0001e4800)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 +0x6f fp=0xc0008cb810 sp=0xc0008cb7c0 pc=0x11b31cf
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0001e4800)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xe5 fp=0xc0008cb9c8 sp=0xc0008cb810 pc=0x11b2305
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000d92000, 0xc0001e4800)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x892 fp=0xc0008cbb30 sp=0xc0008cb9c8 pc=0x11b1732
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000d92000, {0x40aab50, 0xc0003841c0}, 0xc0007e4280)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x1b2 fp=0xc0008cbb68 sp=0xc0008cbb30 pc=0x11b0cd2
+net/http.serverHandler.ServeHTTP({0xc0004eb500?}, {0x40aab50?, 0xc0003841c0?}, 0x6?)
+	/usr/local/go/src/net/http/server.go:3210 +0x8e fp=0xc0008cbb98 sp=0xc0008cbb68 pc=0xb3b58e
+net/http.(*conn).serve(0xc00070cbd0, {0x40b09d0, 0xc000282d50})
+	/usr/local/go/src/net/http/server.go:2092 +0x5d0 fp=0xc0008cbfb8 sp=0xc0008cbb98 pc=0xb1aab0
+net/http.(*Server).Serve.gowrap3()
+	/usr/local/go/src/net/http/server.go:3360 +0x28 fp=0xc0008cbfe0 sp=0xc0008cbfb8 pc=0xb1ff28
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008cbfe8 sp=0xc0008cbfe0 pc=0x7fff81
+created by net/http.(*Server).Serve in goroutine 134
+	/usr/local/go/src/net/http/server.go:3360 +0x485
+
+goroutine 378 gp=0xc000d8a540 m=nil [select, 1 minutes]:
+runtime.gopark(0xc000925f38?, 0x3?, 0x60?, 0x20?, 0xc000925dd2?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000925c58 sp=0xc000925c38 pc=0x7f716e
+runtime.selectgo(0xc000925f38, 0xc000925dcc, 0xc00009b5e0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000925d80 sp=0xc000925c58 pc=0x7d3da5
+net/http.(*persistConn).readLoop(0xc0004bad80)
+	/usr/local/go/src/net/http/transport.go:2325 +0xca5 fp=0xc000925fc8 sp=0xc000925d80 pc=0xb35b05
+net/http.(*Transport).dialConn.gowrap2()
+	/usr/local/go/src/net/http/transport.go:1874 +0x25 fp=0xc000925fe0 sp=0xc000925fc8 pc=0xb339e5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000925fe8 sp=0xc000925fe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 387
+	/usr/local/go/src/net/http/transport.go:1874 +0x154f
+
+goroutine 265 gp=0xc000d8ae00 m=nil [IO wait, 1 minutes]:
+runtime.gopark(0x0?, 0xc000b2a7a0?, 0x48?, 0xa8?, 0xc000b2a84c?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000d81678 sp=0xc000d81658 pc=0x7f716e
+runtime.netpollblock(0x2c8?, 0x788826?, 0x0?)
+	/usr/local/go/src/runtime/netpoll.go:575 +0xf7 fp=0xc000d816b0 sp=0xc000d81678 pc=0x7b8ab7
+internal/poll.runtime_pollWait(0x1a44e41c788, 0x72)
+	/usr/local/go/src/runtime/netpoll.go:351 +0x85 fp=0xc000d816d0 sp=0xc000d816b0 pc=0x7f6325
+internal/poll.(*pollDesc).wait(0x2c8?, 0x8ce43504f65f73e9?, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:84 +0x27 fp=0xc000d816f8 sp=0xc000d816d0 pc=0x84f767
+internal/poll.execIO(0xc000b2a7a0, 0x3d2cf38)
+	/usr/local/go/src/internal/poll/fd_windows.go:177 +0x105 fp=0xc000d81770 sp=0xc000d816f8 pc=0x850ba5
+internal/poll.(*FD).Read(0xc000b2a788, {0xc0006de000, 0x3500, 0x3500})
+	/usr/local/go/src/internal/poll/fd_windows.go:438 +0x2a7 fp=0xc000d81818 sp=0xc000d81770 pc=0x8518a7
+net.(*netFD).Read(0xc000b2a788, {0xc0006de000?, 0x24574c0?, 0xc000d819a0?})
+	/usr/local/go/src/net/fd_posix.go:55 +0x25 fp=0xc000d81860 sp=0xc000d81818 pc=0x9006c5
+net.(*conn).Read(0xc0004a8020, {0xc0006de000?, 0xc0004c0b80?, 0xc0006de00d?})
+	/usr/local/go/src/net/net.go:189 +0x45 fp=0xc000d818a8 sp=0xc000d81860 pc=0x915dc5
+net.(*TCPConn).Read(0x6de005?, {0xc0006de000?, 0x18?, 0x1000100d81908?})
+	<autogenerated>:1 +0x25 fp=0xc000d818d8 sp=0xc000d818a8 pc=0x9297c5
+crypto/tls.(*atLeastReader).Read(0xc000c0a948, {0xc0006de000?, 0x0?, 0xc000c0a948?})
+	/usr/local/go/src/crypto/tls/conn.go:809 +0x3b fp=0xc000d81920 sp=0xc000d818d8 pc=0xa4cedb
+bytes.(*Buffer).ReadFrom(0xc0007d1eb8, {0x4097e60, 0xc000c0a948})
+	/usr/local/go/src/bytes/buffer.go:211 +0x98 fp=0xc000d81978 sp=0xc000d81920 pc=0x8c9f98
+crypto/tls.(*Conn).readFromUntil(0xc0007d1c08, {0x1a44e45f4b8, 0xc0004a8020}, 0xc000d81a10?)
+	/usr/local/go/src/crypto/tls/conn.go:831 +0xde fp=0xc000d819b0 sp=0xc000d81978 pc=0xa4d0be
+crypto/tls.(*Conn).readRecordOrCCS(0xc0007d1c08, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:629 +0x3cf fp=0xc000d81c28 sp=0xc000d819b0 pc=0xa4a1cf
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:591
+crypto/tls.(*Conn).Read(0xc0007d1c08, {0xc000df5000, 0x1000, 0xc000e1ac40?})
+	/usr/local/go/src/crypto/tls/conn.go:1385 +0x150 fp=0xc000d81c98 sp=0xc000d81c28 pc=0xa50a30
+bufio.(*Reader).Read(0xc000a0e720, {0xc0001c8d60, 0x9, 0x242f070?})
+	/usr/local/go/src/bufio/bufio.go:241 +0x197 fp=0xc000d81cd0 sp=0xc000d81c98 pc=0xa95157
+io.ReadAtLeast({0x40974e0, 0xc000a0e720}, {0xc0001c8d60, 0x9, 0x9}, 0x9)
+	/usr/local/go/src/io/io.go:335 +0x90 fp=0xc000d81d18 sp=0xc000d81cd0 pc=0x8405b0
+io.ReadFull(...)
+	/usr/local/go/src/io/io.go:354
+net/http.http2readFrameHeader({0xc0001c8d60, 0x9, 0xc0007c8990?}, {0x40974e0?, 0xc000a0e720?})
+	/usr/local/go/src/net/http/h2_bundle.go:1642 +0x65 fp=0xc000d81d68 sp=0xc000d81d18 pc=0xada785
+net/http.(*http2Framer).ReadFrame(0xc0001c8d20)
+	/usr/local/go/src/net/http/h2_bundle.go:1909 +0x85 fp=0xc000d81e10 sp=0xc000d81d68 pc=0xadaec5
+net/http.(*http2clientConnReadLoop).run(0xc000d81fa8)
+	/usr/local/go/src/net/http/h2_bundle.go:9496 +0xda fp=0xc000d81f60 sp=0xc000d81e10 pc=0xafe2da
+net/http.(*http2ClientConn).readLoop(0xc0001c4480)
+	/usr/local/go/src/net/http/h2_bundle.go:9392 +0x7c fp=0xc000d81fc8 sp=0xc000d81f60 pc=0xafd8bc
+net/http.(*http2Transport).newClientConn.gowrap1()
+	/usr/local/go/src/net/http/h2_bundle.go:8006 +0x25 fp=0xc000d81fe0 sp=0xc000d81fc8 pc=0xaf6645
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000d81fe8 sp=0xc000d81fe0 pc=0x7fff81
+created by net/http.(*http2Transport).newClientConn in goroutine 264
+	/usr/local/go/src/net/http/h2_bundle.go:8006 +0xd1b
+
+goroutine 134 gp=0xc000db1500 m=nil [IO wait]:
+runtime.gopark(0xc000e25a78?, 0x2456940?, 0xa0?, 0xa2?, 0xc000b2a34c?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000e25a60 sp=0xc000e25a40 pc=0x7f716e
+runtime.netpollblock(0x2b4?, 0x788826?, 0x0?)
+	/usr/local/go/src/runtime/netpoll.go:575 +0xf7 fp=0xc000e25a98 sp=0xc000e25a60 pc=0x7b8ab7
+internal/poll.runtime_pollWait(0x1a44e41c890, 0x72)
+	/usr/local/go/src/runtime/netpoll.go:351 +0x85 fp=0xc000e25ab8 sp=0xc000e25a98 pc=0x7f6325
+internal/poll.(*pollDesc).wait(0x84e135?, 0x7f19a5?, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:84 +0x27 fp=0xc000e25ae0 sp=0xc000e25ab8 pc=0x84f767
+internal/poll.execIO(0xc000b2a2a0, 0xc000e25b88)
+	/usr/local/go/src/internal/poll/fd_windows.go:177 +0x105 fp=0xc000e25b58 sp=0xc000e25ae0 pc=0x850ba5
+internal/poll.(*FD).acceptOne(0xc000b2a288, 0x38c, {0xc00099c000?, 0xc000e25be8?, 0x858925?}, 0xc000e25c1c?)
+	/usr/local/go/src/internal/poll/fd_windows.go:946 +0x65 fp=0xc000e25bb8 sp=0xc000e25b58 pc=0x8551e5
+internal/poll.(*FD).Accept(0xc000b2a288, 0xc000e25d68)
+	/usr/local/go/src/internal/poll/fd_windows.go:980 +0x1b6 fp=0xc000e25c70 sp=0xc000e25bb8 pc=0x855516
+net.(*netFD).accept(0xc000b2a288)
+	/usr/local/go/src/net/fd_windows.go:182 +0x4b fp=0xc000e25d88 sp=0xc000e25c70 pc=0x9027eb
+net.(*TCPListener).accept(0xc000e32040)
+	/usr/local/go/src/net/tcpsock_posix.go:159 +0x1e fp=0xc000e25dd8 sp=0xc000e25d88 pc=0x91ea7e
+net.(*TCPListener).Accept(0xc000e32040)
+	/usr/local/go/src/net/tcpsock.go:372 +0x30 fp=0xc000e25e08 sp=0xc000e25dd8 pc=0x91db50
+net/http.(*onceCloseListener).Accept(0xc000287d40?)
+	<autogenerated>:1 +0x24 fp=0xc000e25e20 sp=0xc000e25e08 pc=0xb47ee4
+net/http.(*Server).Serve(0xc0003403c0, {0x40aa970, 0xc000e32040})
+	/usr/local/go/src/net/http/server.go:3330 +0x30c fp=0xc000e25f50 sp=0xc000e25e20 pc=0xb1fb2c
+net/http.(*Server).ListenAndServe(0xc0003403c0)
+	/usr/local/go/src/net/http/server.go:3259 +0x71 fp=0xc000e25f80 sp=0xc000e25f50 pc=0xb1f7f1
+github.com/alist-org/alist/v3/cmd.init.func8.1()
+	/source/cmd/server.go:53 +0x1e fp=0xc000e25fe0 sp=0xc000e25f80 pc=0x20ff13e
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000e25fe8 sp=0xc000e25fe0 pc=0x7fff81
+created by github.com/alist-org/alist/v3/cmd.init.func8 in goroutine 1
+	/source/cmd/server.go:52 +0x426
+
+goroutine 135 gp=0xc000db16c0 m=7 mp=0xc000081008 [syscall, 172 minutes]:
+runtime.notetsleepg(0x54560c0, 0xffffffffffffffff)
+	/usr/local/go/src/runtime/lock_sema.go:296 +0x31 fp=0xc000db7fa0 sp=0xc000db7f68 pc=0x791151
+os/signal.signal_recv()
+	/usr/local/go/src/runtime/sigqueue.go:152 +0x29 fp=0xc000db7fc0 sp=0xc000db7fa0 pc=0x7f8de9
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:23 +0x13 fp=0xc000db7fe0 sp=0xc000db7fc0 pc=0x1907433
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000db7fe8 sp=0xc000db7fe0 pc=0x7fff81
+created by os/signal.Notify.func1.1 in goroutine 1
+	/usr/local/go/src/os/signal/signal.go:151 +0x1f
+
+goroutine 353 gp=0xc000db1880 m=nil [runnable]:
+runtime.cgocall(0x801740, 0xc000073330)
+	/usr/local/go/src/runtime/cgocall.go:167 +0x3e fp=0xc0008c7290 sp=0xc0008c7228 pc=0x7f03be
+syscall.SyscallN(0x7ffb9f?, {0xc0008c72d0?, 0x7f0450?, 0x801740?})
+	/usr/local/go/src/runtime/syscall_windows.go:519 +0x46 fp=0xc0008c72b0 sp=0xc0008c7290 pc=0x7fbc86
+syscall.Syscall9(0xc0008b40cc?, 0x0?, 0xc0008b40c8?, 0x0?, 0x2e8?, 0xc0008b4020?, 0xc0008b40cc?, 0x0?, 0xc0008b40c8?, 0x0, ...)
+	/usr/local/go/src/runtime/syscall_windows.go:472 +0xad fp=0xc0008c7370 sp=0xc0008c72b0 pc=0x7fb9cd
+syscall.WSARecv(0x2e8, 0xf8900fb7df6276ea?, 0x1, 0x84f647?, 0xdde7d8fb594003ec?, 0xfe900fb7df6276ea?, 0x0?)
+	/usr/local/go/src/syscall/zsyscall_windows.go:1285 +0xb2 fp=0xc0008c7408 sp=0xc0008c7370 pc=0x824bd2
+internal/poll.(*FD).Read.func1(0xfc900fb7df6276ea?)
+	/usr/local/go/src/internal/poll/fd_windows.go:439 +0x3b fp=0xc0008c7450 sp=0xc0008c7408 pc=0x859c9b
+internal/poll.execIO(0xc0008b4020, 0x3d2cf38)
+	/usr/local/go/src/internal/poll/fd_windows.go:161 +0x7b fp=0xc0008c74c8 sp=0xc0008c7450 pc=0x850b1b
+internal/poll.(*FD).Read(0xc0008b4008, {0xc000d1cbc0, 0x7440, 0x7440})
+	/usr/local/go/src/internal/poll/fd_windows.go:438 +0x2a7 fp=0xc0008c7570 sp=0xc0008c74c8 pc=0x8518a7
+net.(*netFD).Read(0xc0008b4008, {0xc000d1cbc0?, 0x791f8f?, 0xc0008c76f8?})
+	/usr/local/go/src/net/fd_posix.go:55 +0x25 fp=0xc0008c75b8 sp=0xc0008c7570 pc=0x9006c5
+net.(*conn).Read(0xc000e08260, {0xc000d1cbc0?, 0xc000dd6720?, 0xc000d1a005?})
+	/usr/local/go/src/net/net.go:189 +0x45 fp=0xc0008c7600 sp=0xc0008c75b8 pc=0x915dc5
+net.(*TCPConn).Read(0x344fc8?, {0xc000d1cbc0?, 0x18?, 0xc0009016d8?})
+	<autogenerated>:1 +0x25 fp=0xc0008c7630 sp=0xc0008c7600 pc=0x9297c5
+crypto/tls.(*atLeastReader).Read(0xc000c5f9b0, {0xc000d1cbc0?, 0x0?, 0xc000c5f9b0?})
+	/usr/local/go/src/crypto/tls/conn.go:809 +0x3b fp=0xc0008c7678 sp=0xc0008c7630 pc=0xa4cedb
+bytes.(*Buffer).ReadFrom(0xc0003450b8, {0x4097e60, 0xc000c5f9b0})
+	/usr/local/go/src/bytes/buffer.go:211 +0x98 fp=0xc0008c76d0 sp=0xc0008c7678 pc=0x8c9f98
+crypto/tls.(*Conn).readFromUntil(0xc000344e08, {0x1a44e45f4b8, 0xc000e08260}, 0xc0008c7768?)
+	/usr/local/go/src/crypto/tls/conn.go:831 +0xde fp=0xc0008c7708 sp=0xc0008c76d0 pc=0xa4d0be
+crypto/tls.(*Conn).readRecordOrCCS(0xc000344e08, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:680 +0xd3e fp=0xc0008c7980 sp=0xc0008c7708 pc=0xa4ab3e
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:591
+crypto/tls.(*Conn).Read(0xc000344e08, {0xc000d0a000, 0x10000, 0x1010000a000?})
+	/usr/local/go/src/crypto/tls/conn.go:1385 +0x150 fp=0xc0008c79f0 sp=0xc0008c7980 pc=0xa50a30
+net/http.(*persistConn).Read(0xc000a2aa20, {0xc000d0a000?, 0x0?, 0xacd3dc?})
+	/usr/local/go/src/net/http/transport.go:2052 +0x4a fp=0xc0008c7a50 sp=0xc0008c79f0 pc=0xb344aa
+bufio.(*Reader).Read(0xc000b8a420, {0xc000d0a000, 0x10000, 0x1a408cc0108?})
+	/usr/local/go/src/bufio/bufio.go:227 +0xe3 fp=0xc0008c7a88 sp=0xc0008c7a50 pc=0xa950a3
+io.(*LimitedReader).Read(0xc0009152a8, {0xc000d0a000?, 0x8ceab8?, 0x1a44e32a158?})
+	/usr/local/go/src/io/io.go:479 +0x43 fp=0xc0008c7ab8 sp=0xc0008c7a88 pc=0x840d43
+net/http.(*body).readLocked(0xc000e32400, {0xc000d0a000?, 0xc0008c7b68?, 0x7d5130?})
+	/usr/local/go/src/net/http/transfer.go:844 +0x3b fp=0xc0008c7b00 sp=0xc0008c7ab8 pc=0xb28bdb
+net/http.(*body).Read(0x0?, {0xc000d0a000?, 0x0?, 0x0?})
+	/usr/local/go/src/net/http/transfer.go:836 +0x112 fp=0xc0008c7b78 sp=0xc0008c7b00 pc=0xb28ab2
+net/http.(*bodyEOFSignal).Read(0xc000e32440, {0xc000d0a000, 0x10000, 0x10000})
+	/usr/local/go/src/net/http/transport.go:2913 +0x13f fp=0xc0008c7bf8 sp=0xc0008c7b78 pc=0xb385df
+net/http.(*cancelTimerBody).Read(0xc0007ef160, {0xc000d0a000?, 0x4000?, 0x10000?})
+	/usr/local/go/src/net/http/client.go:961 +0x2d fp=0xc0008c7c58 sp=0xc0008c7bf8 pc=0xacea8d
+io.copyBuffer({0x409bc60, 0xc0007c8900}, {0x1a44e3741f8, 0xc0007ef160}, {0xc000d0a000, 0x10000, 0x10000})
+	/usr/local/go/src/io/io.go:429 +0x191 fp=0xc0008c7cd0 sp=0xc0008c7c58 pc=0x840ab1
+io.CopyBuffer({0x409bc60?, 0xc0007c8900?}, {0x1a44e3741f8?, 0xc0007ef160?}, {0xc000d0a000?, 0xc000a9d0d0?, 0x2c40337?})
+	/usr/local/go/src/io/io.go:402 +0x36 fp=0xc0008c7d18 sp=0xc0008c7cd0 pc=0x840896
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBuffer({0x409bc60, 0xc0007c8900}, {0x1a44e3741f8, 0xc0007ef160})
+	/source/pkg/utils/io.go:218 +0x11b fp=0xc0008c7dc8 sp=0xc0008c7d18 pc=0xbce57b
+github.com/alist-org/alist/v3/internal/net.(*downloader).tryDownloadChunk(0xc000382dc0, 0xc0007eee00?, 0xc0007eee00)
+	/source/internal/net/request.go:275 +0x16e fp=0xc0008c7e88 sp=0xc0008c7dc8 pc=0xff6eae
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadChunk(0xc000382dc0, 0xc0007eee00)
+	/source/internal/net/request.go:232 +0x1a5 fp=0xc0008c7f58 sp=0xc0008c7e88 pc=0xff6be5
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadPart(0xc000382dc0)
+	/source/internal/net/request.go:216 +0xde fp=0xc0008c7fc8 sp=0xc0008c7f58 pc=0xff69fe
+github.com/alist-org/alist/v3/internal/net.(*downloader).download.gowrap1()
+	/source/internal/net/request.go:148 +0x25 fp=0xc0008c7fe0 sp=0xc0008c7fc8 pc=0xff6585
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008c7fe8 sp=0xc0008c7fe0 pc=0x7fff81
+created by github.com/alist-org/alist/v3/internal/net.(*downloader).download in goroutine 294
+	/source/internal/net/request.go:148 +0x219
+
+goroutine 379 gp=0xc00032ca80 m=nil [select, 1 minutes]:
+runtime.gopark(0xc000827f48?, 0x2?, 0x0?, 0x0?, 0xc000827ef4?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000827d90 sp=0xc000827d70 pc=0x7f716e
+runtime.selectgo(0xc000827f48, 0xc000827ef0, 0xc00060a380?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000827eb8 sp=0xc000827d90 pc=0x7d3da5
+net/http.(*persistConn).writeLoop(0xc0004bad80)
+	/usr/local/go/src/net/http/transport.go:2519 +0xe7 fp=0xc000827fc8 sp=0xc000827eb8 pc=0xb369e7
+net/http.(*Transport).dialConn.gowrap3()
+	/usr/local/go/src/net/http/transport.go:1875 +0x25 fp=0xc000827fe0 sp=0xc000827fc8 pc=0xb33985
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000827fe8 sp=0xc000827fe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 387
+	/usr/local/go/src/net/http/transport.go:1875 +0x15a5
+
+goroutine 294 gp=0xc00032d340 m=nil [chan send, 1 minutes]:
+runtime.gopark(0xc000b86cd8?, 0xa96a65?, 0x20?, 0x41?, 0xc000b4a000?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000b86c78 sp=0xc000b86c58 pc=0x7f716e
+runtime.chansend(0xc000416000, 0xc000b5ec88, 0x1, 0xc000073001?)
+	/usr/local/go/src/runtime/chan.go:270 +0x38d fp=0xc000b86ce8 sp=0xc000b86c78 pc=0x78a26d
+runtime.chansend1(0x0?, 0xc0007c8928?)
+	/usr/local/go/src/runtime/chan.go:156 +0x17 fp=0xc000b86d18 sp=0xc000b86ce8 pc=0x789ed7
+github.com/alist-org/alist/v3/internal/net.(*downloader).sendChunkTask(...)
+	/source/internal/net/request.go:164
+github.com/alist-org/alist/v3/internal/net.(*downloader).finishBuf(0xc000b25570?, 0x0?)
+	/source/internal/net/request.go:197 +0x131 fp=0xc000b86d50 sp=0xc000b86d18 pc=0xff6891
+github.com/alist-org/alist/v3/internal/net.(*downloader).finishBuf-fm(0xc0007c8900?)
+	<autogenerated>:1 +0x26 fp=0xc000b86d70 sp=0xc000b86d50 pc=0xffb926
+github.com/alist-org/alist/v3/internal/net.MultiReadCloser.Read({0xc00074fd50?, 0xc00074fcc0?, 0xc00074fcf0?}, {0xc000b4a000?, 0x0?, 0x0?})
+	/source/internal/net/request.go:433 +0x107 fp=0xc000b86df0 sp=0xc000b86d70 pc=0xff7a87
+github.com/alist-org/alist/v3/internal/net.(*MultiReadCloser).Read(0xc0003840e0?, {0xc000b4a000?, 0x25fe380?, 0xc000b86ee8?})
+	<autogenerated>:1 +0x47 fp=0xc000b86e30 sp=0xc000b86df0 pc=0xffb847
+io.(*LimitedReader).Read(0xc0000b61b0, {0xc000b4a000?, 0x10000?, 0x10000?})
+	/usr/local/go/src/io/io.go:479 +0x43 fp=0xc000b86e60 sp=0xc000b86e30 pc=0x840d43
+io.copyBuffer({0x1a44e378658, 0xc00087e100}, {0x4096c80, 0xc0000b61b0}, {0xc000b4a000, 0x10000, 0x10000})
+	/usr/local/go/src/io/io.go:429 +0x191 fp=0xc000b86ed8 sp=0xc000b86e60 pc=0x840ab1
+io.CopyBuffer({0x1a44e378658?, 0xc00087e100?}, {0x4096c80?, 0xc0000b61b0?}, {0xc000b4a000?, 0xc000b86f70?, 0x1a408cc0598?})
+	/usr/local/go/src/io/io.go:402 +0x36 fp=0xc000b86f20 sp=0xc000b86ed8 pc=0x840896
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBuffer({0x1a44e378658, 0xc00087e100}, {0x4096c80, 0xc0000b61b0})
+	/source/pkg/utils/io.go:218 +0x11b fp=0xc000b86fd0 sp=0xc000b86f20 pc=0xbce57b
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBufferN({0x1a44e378658, 0xc00087e100}, {0x1a44e476710, 0xc0000b6198}, 0x7fffffff)
+	/source/pkg/utils/io.go:226 +0x85 fp=0xc000b87000 sp=0xc000b86fd0 pc=0xbce745
+github.com/alist-org/alist/v3/internal/net.ServeHTTP({0x1a44e375258, 0xc00087e100}, 0xc0002caf00, {0xc0009e61e0, 0x56}, {0x0?, 0x0?, 0x5409660?}, 0x792a8b670, 0xc0007c8540)
+	/source/internal/net/serve.go:187 +0xdac fp=0xc000b87248 sp=0xc000b87000 pc=0xff8f2c
+github.com/alist-org/alist/v3/server/common.Proxy({0x1a44e375258, 0xc00087e100}, 0xc0002caf00, 0xc000002d20, {0x40bad38, 0xc000b17180})
+	/source/server/common/proxy.go:56 +0x44e fp=0xc000b874e0 sp=0xc000b87248 pc=0x11beb4e
+github.com/alist-org/alist/v3/server/handles.Proxy(0xc00087e100)
+	/source/server/handles/down.go:112 +0x605 fp=0xc000b87630 sp=0xc000b874e0 pc=0x2028145
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.Down(0xc00087e100)
+	/source/server/middlewares/down.go:40 +0x2bb fp=0xc000b876e8 sp=0xc000b87630 pc=0x1ff501b
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded(0xc00087e100)
+	/source/server/middlewares/check.go:14 +0xbb fp=0xc000b877c0 sp=0xc000b876e8 pc=0x1ff4adb
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00087e100)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 +0x6f fp=0xc000b87810 sp=0xc000b877c0 pc=0x11b31cf
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00087e100)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 +0xe5 fp=0xc000b879c8 sp=0xc000b87810 pc=0x11b2305
+github.com/gin-gonic/gin.(*Context).Next(...)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000d92000, 0xc00087e100)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 +0x892 fp=0xc000b87b30 sp=0xc000b879c8 pc=0x11b1732
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000d92000, {0x40aab50, 0xc0003840e0}, 0xc0002caf00)
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 +0x1b2 fp=0xc000b87b68 sp=0xc000b87b30 pc=0x11b0cd2
+net/http.serverHandler.ServeHTTP({0xc000a99230?}, {0x40aab50?, 0xc0003840e0?}, 0x6?)
+	/usr/local/go/src/net/http/server.go:3210 +0x8e fp=0xc000b87b98 sp=0xc000b87b68 pc=0xb3b58e
+net/http.(*conn).serve(0xc00029f950, {0x40b09d0, 0xc000282d50})
+	/usr/local/go/src/net/http/server.go:2092 +0x5d0 fp=0xc000b87fb8 sp=0xc000b87b98 pc=0xb1aab0
+net/http.(*Server).Serve.gowrap3()
+	/usr/local/go/src/net/http/server.go:3360 +0x28 fp=0xc000b87fe0 sp=0xc000b87fb8 pc=0xb1ff28
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000b87fe8 sp=0xc000b87fe0 pc=0x7fff81
+created by net/http.(*Server).Serve in goroutine 134
+	/usr/local/go/src/net/http/server.go:3360 +0x485
+
+goroutine 358 gp=0xc000bb6000 m=nil [select, 1 minutes]:
+runtime.gopark(0xc0008bbf38?, 0x3?, 0x40?, 0xf1?, 0xc0008bbdd2?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008bbc58 sp=0xc0008bbc38 pc=0x7f716e
+runtime.selectgo(0xc0008bbf38, 0xc0008bbdcc, 0xc000cc2a10?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008bbd80 sp=0xc0008bbc58 pc=0x7d3da5
+net/http.(*persistConn).readLoop(0xc000a2aa20)
+	/usr/local/go/src/net/http/transport.go:2325 +0xca5 fp=0xc0008bbfc8 sp=0xc0008bbd80 pc=0xb35b05
+net/http.(*Transport).dialConn.gowrap2()
+	/usr/local/go/src/net/http/transport.go:1874 +0x25 fp=0xc0008bbfe0 sp=0xc0008bbfc8 pc=0xb339e5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008bbfe8 sp=0xc0008bbfe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 321
+	/usr/local/go/src/net/http/transport.go:1874 +0x154f
+
+goroutine 407 gp=0xc000bb7340 m=nil [select, 1 minutes]:
+runtime.gopark(0xc00082df48?, 0x2?, 0x0?, 0x0?, 0xc00082def4?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00082dd90 sp=0xc00082dd70 pc=0x7f716e
+runtime.selectgo(0xc00082df48, 0xc00082def0, 0xc000e324c0?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc00082deb8 sp=0xc00082dd90 pc=0x7d3da5
+net/http.(*persistConn).writeLoop(0xc000a2a360)
+	/usr/local/go/src/net/http/transport.go:2519 +0xe7 fp=0xc00082dfc8 sp=0xc00082deb8 pc=0xb369e7
+net/http.(*Transport).dialConn.gowrap3()
+	/usr/local/go/src/net/http/transport.go:1875 +0x25 fp=0xc00082dfe0 sp=0xc00082dfc8 pc=0xb33985
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00082dfe8 sp=0xc00082dfe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 403
+	/usr/local/go/src/net/http/transport.go:1875 +0x15a5
+
+goroutine 386 gp=0xc000b04000 m=nil [IO wait]:
+runtime.gopark(0x0?, 0xc000b2a520?, 0xc8?, 0xa5?, 0xc000b2a5cc?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0006873d0 sp=0xc0006873b0 pc=0x7f716e
+runtime.netpollblock(0x310?, 0x788826?, 0x0?)
+	/usr/local/go/src/runtime/netpoll.go:575 +0xf7 fp=0xc000687408 sp=0xc0006873d0 pc=0x7b8ab7
+internal/poll.runtime_pollWait(0x1a44e41c578, 0x72)
+	/usr/local/go/src/runtime/netpoll.go:351 +0x85 fp=0xc000687428 sp=0xc000687408 pc=0x7f6325
+internal/poll.(*pollDesc).wait(0x42bcc3c87c2e48a5?, 0x15973a9d92d80bd5?, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:84 +0x27 fp=0xc000687450 sp=0xc000687428 pc=0x84f767
+internal/poll.execIO(0xc000b2a520, 0x3d2cf38)
+	/usr/local/go/src/internal/poll/fd_windows.go:177 +0x105 fp=0xc0006874c8 sp=0xc000687450 pc=0x850ba5
+internal/poll.(*FD).Read(0xc000b2a508, {0xc00095c000, 0xa000, 0xa000})
+	/usr/local/go/src/internal/poll/fd_windows.go:438 +0x2a7 fp=0xc000687570 sp=0xc0006874c8 pc=0x8518a7
+net.(*netFD).Read(0xc000b2a508, {0xc00095c000?, 0x791fde?, 0xc0006876f8?})
+	/usr/local/go/src/net/fd_posix.go:55 +0x25 fp=0xc0006875b8 sp=0xc000687570 pc=0x9006c5
+net.(*conn).Read(0xc000625138, {0xc00095c000?, 0xc000e12420?, 0xc00096001b?})
+	/usr/local/go/src/net/net.go:189 +0x45 fp=0xc000687600 sp=0xc0006875b8 pc=0x915dc5
+net.(*TCPConn).Read(0x7fda48?, {0xc00095c000?, 0x18?, 0xa51aec?})
+	<autogenerated>:1 +0x25 fp=0xc000687630 sp=0xc000687600 pc=0x9297c5
+crypto/tls.(*atLeastReader).Read(0xc000c5f710, {0xc00095c000?, 0x0?, 0xc000c5f710?})
+	/usr/local/go/src/crypto/tls/conn.go:809 +0x3b fp=0xc000687678 sp=0xc000687630 pc=0xa4cedb
+bytes.(*Buffer).ReadFrom(0xc0007fdb38, {0x4097e60, 0xc000c5f710})
+	/usr/local/go/src/bytes/buffer.go:211 +0x98 fp=0xc0006876d0 sp=0xc000687678 pc=0x8c9f98
+crypto/tls.(*Conn).readFromUntil(0xc0007fd888, {0x1a44e45f4b8, 0xc000625138}, 0xc000687768?)
+	/usr/local/go/src/crypto/tls/conn.go:831 +0xde fp=0xc000687708 sp=0xc0006876d0 pc=0xa4d0be
+crypto/tls.(*Conn).readRecordOrCCS(0xc0007fd888, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:629 +0x3cf fp=0xc000687980 sp=0xc000687708 pc=0xa4a1cf
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:591
+crypto/tls.(*Conn).Read(0xc0007fd888, {0xc000ad0000, 0x10000, 0x1010000a000?})
+	/usr/local/go/src/crypto/tls/conn.go:1385 +0x150 fp=0xc0006879f0 sp=0xc000687980 pc=0xa50a30
+net/http.(*persistConn).Read(0xc000a2a360, {0xc000ad0000?, 0x0?, 0xacd3dc?})
+	/usr/local/go/src/net/http/transport.go:2052 +0x4a fp=0xc000687a50 sp=0xc0006879f0 pc=0xb344aa
+bufio.(*Reader).Read(0xc000b8aea0, {0xc000ad0000, 0x10000, 0x1a408cc0108?})
+	/usr/local/go/src/bufio/bufio.go:227 +0xe3 fp=0xc000687a88 sp=0xc000687a50 pc=0xa950a3
+io.(*LimitedReader).Read(0xc0003860c0, {0xc000ad0000?, 0x8ceab8?, 0xc000687ad8?})
+	/usr/local/go/src/io/io.go:479 +0x43 fp=0xc000687ab8 sp=0xc000687a88 pc=0x840d43
+net/http.(*body).readLocked(0xc00060a780, {0xc000ad0000?, 0x0?, 0x0?})
+	/usr/local/go/src/net/http/transfer.go:844 +0x3b fp=0xc000687b00 sp=0xc000687ab8 pc=0xb28bdb
+net/http.(*body).Read(0x0?, {0xc000ad0000?, 0x0?, 0x0?})
+	/usr/local/go/src/net/http/transfer.go:836 +0x112 fp=0xc000687b78 sp=0xc000687b00 pc=0xb28ab2
+net/http.(*bodyEOFSignal).Read(0xc00060a7c0, {0xc000ad0000, 0x10000, 0x10000})
+	/usr/local/go/src/net/http/transport.go:2913 +0x13f fp=0xc000687bf8 sp=0xc000687b78 pc=0xb385df
+net/http.(*cancelTimerBody).Read(0xc0004c02a0, {0xc000ad0000?, 0x4000?, 0x10000?})
+	/usr/local/go/src/net/http/client.go:961 +0x2d fp=0xc000687c58 sp=0xc000687bf8 pc=0xacea8d
+io.copyBuffer({0x409bc60, 0xc000a3a660}, {0x1a44e3741f8, 0xc0004c02a0}, {0xc000ad0000, 0x10000, 0x10000})
+	/usr/local/go/src/io/io.go:429 +0x191 fp=0xc000687cd0 sp=0xc000687c58 pc=0x840ab1
+io.CopyBuffer({0x409bc60?, 0xc000a3a660?}, {0x1a44e3741f8?, 0xc0004c02a0?}, {0xc000ad0000?, 0xff723a?, 0xc0004ea030?})
+	/usr/local/go/src/io/io.go:402 +0x36 fp=0xc000687d18 sp=0xc000687cd0 pc=0x840896
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBuffer({0x409bc60, 0xc000a3a660}, {0x1a44e3741f8, 0xc0004c02a0})
+	/source/pkg/utils/io.go:218 +0x11b fp=0xc000687dc8 sp=0xc000687d18 pc=0xbce57b
+github.com/alist-org/alist/v3/internal/net.(*downloader).tryDownloadChunk(0xc000382a50, 0xc0004c01a0?, 0xc0004c01a0)
+	/source/internal/net/request.go:275 +0x16e fp=0xc000687e88 sp=0xc000687dc8 pc=0xff6eae
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadChunk(0xc000382a50, 0xc0004c01a0)
+	/source/internal/net/request.go:232 +0x1a5 fp=0xc000687f58 sp=0xc000687e88 pc=0xff6be5
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadPart(0xc000382a50)
+	/source/internal/net/request.go:216 +0xde fp=0xc000687fc8 sp=0xc000687f58 pc=0xff69fe
+github.com/alist-org/alist/v3/internal/net.(*downloader).download.gowrap1()
+	/source/internal/net/request.go:148 +0x25 fp=0xc000687fe0 sp=0xc000687fc8 pc=0xff6585
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000687fe8 sp=0xc000687fe0 pc=0x7fff81
+created by github.com/alist-org/alist/v3/internal/net.(*downloader).download in goroutine 282
+	/source/internal/net/request.go:148 +0x219
+
+goroutine 406 gp=0xc000db0fc0 m=nil [select, 1 minutes]:
+runtime.gopark(0xc000e67f38?, 0x3?, 0xe0?, 0x1?, 0xc000e67dd2?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000e67c58 sp=0xc000e67c38 pc=0x7f716e
+runtime.selectgo(0xc000e67f38, 0xc000e67dcc, 0xc0004d0690?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000e67d80 sp=0xc000e67c58 pc=0x7d3da5
+net/http.(*persistConn).readLoop(0xc000a2a360)
+	/usr/local/go/src/net/http/transport.go:2325 +0xca5 fp=0xc000e67fc8 sp=0xc000e67d80 pc=0xb35b05
+net/http.(*Transport).dialConn.gowrap2()
+	/usr/local/go/src/net/http/transport.go:1874 +0x25 fp=0xc000e67fe0 sp=0xc000e67fc8 pc=0xb339e5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000e67fe8 sp=0xc000e67fe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 403
+	/usr/local/go/src/net/http/transport.go:1874 +0x154f
+
+goroutine 359 gp=0xc000bb7a40 m=nil [select, 1 minutes]:
+runtime.gopark(0xc000d87f48?, 0x2?, 0x0?, 0x0?, 0xc000d87ef4?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc000d87d90 sp=0xc000d87d70 pc=0x7f716e
+runtime.selectgo(0xc000d87f48, 0xc000d87ef0, 0xc000db2600?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc000d87eb8 sp=0xc000d87d90 pc=0x7d3da5
+net/http.(*persistConn).writeLoop(0xc000a2aa20)
+	/usr/local/go/src/net/http/transport.go:2519 +0xe7 fp=0xc000d87fc8 sp=0xc000d87eb8 pc=0xb369e7
+net/http.(*Transport).dialConn.gowrap3()
+	/usr/local/go/src/net/http/transport.go:1875 +0x25 fp=0xc000d87fe0 sp=0xc000d87fc8 pc=0xb33985
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000d87fe8 sp=0xc000d87fe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 321
+	/usr/local/go/src/net/http/transport.go:1875 +0x15a5
+
+goroutine 374 gp=0xc000bb7dc0 m=nil [select, 1 minutes]:
+runtime.gopark(0xc0008bff38?, 0x3?, 0xe0?, 0xf0?, 0xc0008bfdd2?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0008bfc58 sp=0xc0008bfc38 pc=0x7f716e
+runtime.selectgo(0xc0008bff38, 0xc0008bfdcc, 0xc0004d1340?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc0008bfd80 sp=0xc0008bfc58 pc=0x7d3da5
+net/http.(*persistConn).readLoop(0xc000a12480)
+	/usr/local/go/src/net/http/transport.go:2325 +0xca5 fp=0xc0008bffc8 sp=0xc0008bfd80 pc=0xb35b05
+net/http.(*Transport).dialConn.gowrap2()
+	/usr/local/go/src/net/http/transport.go:1874 +0x25 fp=0xc0008bffe0 sp=0xc0008bffc8 pc=0xb339e5
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc0008bffe8 sp=0xc0008bffe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 355
+	/usr/local/go/src/net/http/transport.go:1874 +0x154f
+
+goroutine 375 gp=0xc000e1a8c0 m=nil [select, 1 minutes]:
+runtime.gopark(0xc00091bf48?, 0x2?, 0x0?, 0x0?, 0xc00091bef4?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc00091bd90 sp=0xc00091bd70 pc=0x7f716e
+runtime.selectgo(0xc00091bf48, 0xc00091bef0, 0xc000e32340?, 0x0, 0x0?, 0x1)
+	/usr/local/go/src/runtime/select.go:335 +0x7a5 fp=0xc00091beb8 sp=0xc00091bd90 pc=0x7d3da5
+net/http.(*persistConn).writeLoop(0xc000a12480)
+	/usr/local/go/src/net/http/transport.go:2519 +0xe7 fp=0xc00091bfc8 sp=0xc00091beb8 pc=0xb369e7
+net/http.(*Transport).dialConn.gowrap3()
+	/usr/local/go/src/net/http/transport.go:1875 +0x25 fp=0xc00091bfe0 sp=0xc00091bfc8 pc=0xb33985
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc00091bfe8 sp=0xc00091bfe0 pc=0x7fff81
+created by net/http.(*Transport).dialConn in goroutine 355
+	/usr/local/go/src/net/http/transport.go:1875 +0x15a5
+
+goroutine 402 gp=0xc000e1ac40 m=nil [IO wait]:
+runtime.gopark(0x0?, 0xc00099e020?, 0xc8?, 0xe0?, 0xc00099e0cc?)
+	/usr/local/go/src/runtime/proc.go:424 +0xce fp=0xc0006833d0 sp=0xc0006833b0 pc=0x7f716e
+runtime.netpollblock(0x324?, 0x788826?, 0x0?)
+	/usr/local/go/src/runtime/netpoll.go:575 +0xf7 fp=0xc000683408 sp=0xc0006833d0 pc=0x7b8ab7
+internal/poll.runtime_pollWait(0x1a44e41c470, 0x72)
+	/usr/local/go/src/runtime/netpoll.go:351 +0x85 fp=0xc000683428 sp=0xc000683408 pc=0x7f6325
+internal/poll.(*pollDesc).wait(0x81b6e39f503bbb7d?, 0x94d83eb81f6b2687?, 0x0)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:84 +0x27 fp=0xc000683450 sp=0xc000683428 pc=0x84f767
+internal/poll.execIO(0xc00099e020, 0x3d2cf38)
+	/usr/local/go/src/internal/poll/fd_windows.go:177 +0x105 fp=0xc0006834c8 sp=0xc000683450 pc=0x850ba5
+internal/poll.(*FD).Read(0xc00099e008, {0xc000868000, 0xa000, 0xa000})
+	/usr/local/go/src/internal/poll/fd_windows.go:438 +0x2a7 fp=0xc000683570 sp=0xc0006834c8 pc=0x8518a7
+net.(*netFD).Read(0xc00099e008, {0xc000868000?, 0x791f8f?, 0xc0006836f8?})
+	/usr/local/go/src/net/fd_posix.go:55 +0x25 fp=0xc0006835b8 sp=0xc000683570 pc=0x9006c5
+net.(*conn).Read(0xc000625130, {0xc000868000?, 0xc0004c0ba0?, 0xc000868005?})
+	/usr/local/go/src/net/net.go:189 +0x45 fp=0xc000683600 sp=0xc0006835b8 pc=0x915dc5
+net.(*TCPConn).Read(0x7fcfc8?, {0xc000868000?, 0x18?, 0x7fd6cd?})
+	<autogenerated>:1 +0x25 fp=0xc000683630 sp=0xc000683600 pc=0x9297c5
+crypto/tls.(*atLeastReader).Read(0xc000be3350, {0xc000868000?, 0x0?, 0xc000be3350?})
+	/usr/local/go/src/crypto/tls/conn.go:809 +0x3b fp=0xc000683678 sp=0xc000683630 pc=0xa4cedb
+bytes.(*Buffer).ReadFrom(0xc0007fd0b8, {0x4097e60, 0xc000be3350})
+	/usr/local/go/src/bytes/buffer.go:211 +0x98 fp=0xc0006836d0 sp=0xc000683678 pc=0x8c9f98
+crypto/tls.(*Conn).readFromUntil(0xc0007fce08, {0x1a44e45f4b8, 0xc000625130}, 0xc000683768?)
+	/usr/local/go/src/crypto/tls/conn.go:831 +0xde fp=0xc000683708 sp=0xc0006836d0 pc=0xa4d0be
+crypto/tls.(*Conn).readRecordOrCCS(0xc0007fce08, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:629 +0x3cf fp=0xc000683980 sp=0xc000683708 pc=0xa4a1cf
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:591
+crypto/tls.(*Conn).Read(0xc0007fce08, {0xc000aa2000, 0x10000, 0x1010000a000?})
+	/usr/local/go/src/crypto/tls/conn.go:1385 +0x150 fp=0xc0006839f0 sp=0xc000683980 pc=0xa50a30
+net/http.(*persistConn).Read(0xc0004bad80, {0xc000aa2000?, 0x0?, 0xacd3dc?})
+	/usr/local/go/src/net/http/transport.go:2052 +0x4a fp=0xc000683a50 sp=0xc0006839f0 pc=0xb344aa
+bufio.(*Reader).Read(0xc000352c00, {0xc000aa2000, 0x10000, 0xc00005ef08?})
+	/usr/local/go/src/bufio/bufio.go:227 +0xe3 fp=0xc000683a88 sp=0xc000683a50 pc=0xa950a3
+io.(*LimitedReader).Read(0xc000688c18, {0xc000aa2000?, 0x8ceab8?, 0x1a44e0603f8?})
+	/usr/local/go/src/io/io.go:479 +0x43 fp=0xc000683ab8 sp=0xc000683a88 pc=0x840d43
+net/http.(*body).readLocked(0xc000e32080, {0xc000aa2000?, 0xc000683b48?, 0x7f8785?})
+	/usr/local/go/src/net/http/transfer.go:844 +0x3b fp=0xc000683b00 sp=0xc000683ab8 pc=0xb28bdb
+net/http.(*body).Read(0x0?, {0xc000aa2000?, 0x0?, 0x1?})
+	/usr/local/go/src/net/http/transfer.go:836 +0x112 fp=0xc000683b78 sp=0xc000683b00 pc=0xb28ab2
+net/http.(*bodyEOFSignal).Read(0xc000e320c0, {0xc000aa2000, 0x10000, 0x10000})
+	/usr/local/go/src/net/http/transport.go:2913 +0x13f fp=0xc000683bf8 sp=0xc000683b78 pc=0xb385df
+net/http.(*cancelTimerBody).Read(0xc000e12080, {0xc000aa2000?, 0x4000?, 0x10000?})
+	/usr/local/go/src/net/http/client.go:961 +0x2d fp=0xc000683c58 sp=0xc000683bf8 pc=0xacea8d
+io.copyBuffer({0x409bc60, 0xc0004b0960}, {0x1a44e3741f8, 0xc000e12080}, {0xc000aa2000, 0x10000, 0x10000})
+	/usr/local/go/src/io/io.go:429 +0x191 fp=0xc000683cd0 sp=0xc000683c58 pc=0x840ab1
+io.CopyBuffer({0x409bc60?, 0xc0004b0960?}, {0x1a44e3741f8?, 0xc000e12080?}, {0xc000aa2000?, 0xc00074e7c0?, 0x2c40337?})
+	/usr/local/go/src/io/io.go:402 +0x36 fp=0xc000683d18 sp=0xc000683cd0 pc=0x840896
+github.com/alist-org/alist/v3/pkg/utils.CopyWithBuffer({0x409bc60, 0xc0004b0960}, {0x1a44e3741f8, 0xc000e12080})
+	/source/pkg/utils/io.go:218 +0x11b fp=0xc000683dc8 sp=0xc000683d18 pc=0xbce57b
+github.com/alist-org/alist/v3/internal/net.(*downloader).tryDownloadChunk(0xc000382a50, 0xc0007ee020?, 0xc0007ee020)
+	/source/internal/net/request.go:275 +0x16e fp=0xc000683e88 sp=0xc000683dc8 pc=0xff6eae
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadChunk(0xc000382a50, 0xc0007ee020)
+	/source/internal/net/request.go:232 +0x1a5 fp=0xc000683f58 sp=0xc000683e88 pc=0xff6be5
+github.com/alist-org/alist/v3/internal/net.(*downloader).downloadPart(0xc000382a50)
+	/source/internal/net/request.go:216 +0xde fp=0xc000683fc8 sp=0xc000683f58 pc=0xff69fe
+github.com/alist-org/alist/v3/internal/net.(*downloader).download.gowrap1()
+	/source/internal/net/request.go:148 +0x25 fp=0xc000683fe0 sp=0xc000683fc8 pc=0xff6585
+runtime.goexit({})
+	/usr/local/go/src/runtime/asm_amd64.s:1700 +0x1 fp=0xc000683fe8 sp=0xc000683fe0 pc=0x7fff81
+created by github.com/alist-org/alist/v3/internal/net.(*downloader).download in goroutine 282
+	/source/internal/net/request.go:148 +0x219
+[36mINFO[0m[2024-11-22 13:07:33] reading config file: E:\__easyHelper__\alist-windows-amd64\data\config.json 
+[36mINFO[0m[2024-11-22 13:07:33] load config from env with prefix: ALIST_     
+[36mINFO[0m[2024-11-22 13:07:33] init logrus...                               
+[33mWARN[0m[2024-11-22 13:07:33] init tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp 127.0.0.1:6800: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-22 13:07:33] init tool SimpleHttp success: ok             
+[36mINFO[0m[2024-11-22 13:07:33] init tool pikpak success: ok                 
+[33mWARN[0m[2024-11-22 13:07:33] init tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[33mWARN[0m[2024-11-22 13:07:33] init tool transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp 127.0.0.1:9091: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-22 13:07:33] init tool 115 Cloud success: ok              
+[36mINFO[0m[2024-11-22 13:07:33] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2024-11-22 13:07:33] success load storage: [/E:/alist/123], driver: [123Pan], order: [0] 
+[36mINFO[0m[2024-11-22 13:07:33] success load storage: [/E:/alist/kk], driver: [Quark], order: [0] 
+[36mINFO[0m[2024-11-22 18:10:01] Shutdown server...                           
+[36mINFO[0m[2024-11-22 18:10:01] Server exit                                  
+[36mINFO[0m[2024-11-25 16:17:03] reading config file: E:\__easyHelper__\alist-windows-amd64\data\config.json 
+[36mINFO[0m[2024-11-25 16:17:03] load config from env with prefix: ALIST_     
+[36mINFO[0m[2024-11-25 16:17:03] init logrus...                               
+[33mWARN[0m[2024-11-25 16:17:03] init tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp 127.0.0.1:6800: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-25 16:17:03] init tool SimpleHttp success: ok             
+[36mINFO[0m[2024-11-25 16:17:03] init tool pikpak success: ok                 
+[33mWARN[0m[2024-11-25 16:17:03] init tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[33mWARN[0m[2024-11-25 16:17:03] init tool transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp 127.0.0.1:9091: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-11-25 16:17:03] init tool 115 Cloud success: ok              
+[36mINFO[0m[2024-11-25 16:17:03] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2024-11-25 16:17:03] success load storage: [/E:/alist/123], driver: [123Pan], order: [0] 
+[36mINFO[0m[2024-11-25 16:17:05] success load storage: [/E:/alist/kk], driver: [Quark], order: [0] 
+[36mINFO[0m[2024-11-25 16:17:06] success load storage: [/E:/alist/baidu], driver: [BaiduNetdisk], order: [0] 
+[36mINFO[0m[2024-12-05 13:59:52] reading config file: E:\__easyHelper__\alist-windows-amd64\data\config.json 
+[36mINFO[0m[2024-12-05 13:59:52] load config from env with prefix: ALIST_     
+[36mINFO[0m[2024-12-05 13:59:52] init logrus...                               
+[33mWARN[0m[2024-12-05 13:59:52] init tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[33mWARN[0m[2024-12-05 13:59:52] init tool transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp 127.0.0.1:9091: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-12-05 13:59:52] init tool 115 Cloud success: ok              
+[33mWARN[0m[2024-12-05 13:59:52] init tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp 127.0.0.1:6800: connectex: No connection could be made because the target machine actively refused it. 
+[36mINFO[0m[2024-12-05 13:59:52] init tool SimpleHttp success: ok             
+[36mINFO[0m[2024-12-05 13:59:52] init tool pikpak success: ok                 
+[36mINFO[0m[2024-12-05 13:59:52] start HTTP server @ 0.0.0.0:5244             
+[36mINFO[0m[2024-12-05 13:59:53] success load storage: [/E:/alist/123], driver: [123Pan], order: [0] 
+[36mINFO[0m[2024-12-05 13:59:53] success load storage: [/E:/alist/kk], driver: [Quark], order: [0] 
+[36mINFO[0m[2024-12-05 13:59:53] success load storage: [/E:/alist/baidu], driver: [BaiduNetdisk], order: [0] 
+[36mINFO[0m[2024-12-05 18:03:58] Shutdown server...                           
+[36mINFO[0m[2024-12-05 18:03:58] Server exit                                  

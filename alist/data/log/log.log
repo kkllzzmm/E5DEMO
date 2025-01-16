@@ -1,0 +1,1503 @@
+[33mWARN[0m[2024-11-07 09:42:55] not enable search                            
+[GIN] 2024/11/07 - 09:45:05 | 200 |       524.7µs |       127.0.0.1 | POST     "/api/admin/user/del_cache?username=admin"
+[GIN] 2024/11/07 - 09:47:00 | 200 |       507.9µs |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/07 - 09:47:00 | 200 |      3.5039ms |       127.0.0.1 | GET      "/assets/index.c4c82a28.css"
+[GIN] 2024/11/07 - 09:47:00 | 200 |     18.3523ms |       127.0.0.1 | GET      "/assets/index.3586d182.js"
+[GIN] 2024/11/07 - 09:47:01 | 200 |            0s |       127.0.0.1 | GET      "/assets/entry.acbef887.js"
+[GIN] 2024/11/07 - 09:47:01 | 200 |      1.3849ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/07 - 09:47:01 | 200 |      1.0924ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 09:47:01 | 200 |            0s |       127.0.0.1 | GET      "/static/manifest.json"
+[GIN] 2024/11/07 - 09:47:01 | 200 |            0s |       127.0.0.1 | GET      "/assets/webauthn-json.browser-ponyfill.1c672167.js"
+[GIN] 2024/11/07 - 09:47:01 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.d5b376e7.js"
+[GIN] 2024/11/07 - 09:47:01 | 200 |            0s |       127.0.0.1 | GET      "/assets/useTitle.c2099cad.js"
+[GIN] 2024/11/07 - 09:54:08 | 200 |       791.5µs |       127.0.0.1 | POST     "/api/auth/login/hash"
+[GIN] 2024/11/07 - 09:54:08 | 200 |      1.0026ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 09:54:08 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.2a6ef518.js"
+[GIN] 2024/11/07 - 09:54:08 | 200 |      1.5083ms |       127.0.0.1 | GET      "/assets/Layout.0b43b868.js"
+[GIN] 2024/11/07 - 09:54:08 | 200 |     19.9556ms |       127.0.0.1 | GET      "/assets/index.d3403400.js"
+[GIN] 2024/11/07 - 09:54:08 | 200 |     21.9482ms |       127.0.0.1 | GET      "/assets/FolderTree.43c2ba40.js"
+[GIN] 2024/11/07 - 09:54:09 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[31mERRO[0m[2024-11-07 09:54:09] failed list /: storage not found; please add a storage first
+failed get storage 
+[GIN] 2024/11/07 - 09:54:09 | 200 |      1.9942ms |       127.0.0.1 | POST     "/api/fs/get"
+[31mERRO[0m[2024-11-07 09:54:09] failed list /: storage not found; please add a storage first
+failed get storage 
+[GIN] 2024/11/07 - 09:54:09 | 200 |         524µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:54:15 | 200 |       741.9µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 09:54:15 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.7a46360f.js"
+[GIN] 2024/11/07 - 09:54:15 | 200 |      2.0048ms |       127.0.0.1 | GET      "/assets/index.2526a4ab.js"
+[GIN] 2024/11/07 - 09:54:15 | 200 |      1.0368ms |       127.0.0.1 | GET      "/assets/Profile.aebed130.js"
+[GIN] 2024/11/07 - 09:54:21 | 200 |            0s |       127.0.0.1 | GET      "/assets/Storages.753f8e49.js"
+[GIN] 2024/11/07 - 09:54:21 | 200 |            0s |       127.0.0.1 | GET      "/assets/DeletePopover.2e09042b.js"
+[GIN] 2024/11/07 - 09:54:21 | 200 |       997.5µs |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/07 - 09:54:21 | 200 |      2.9926ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/07 - 09:54:30 | 200 |            0s |       127.0.0.1 | GET      "/assets/Wether.7c8c853c.js"
+[GIN] 2024/11/07 - 09:54:30 | 200 |            0s |       127.0.0.1 | GET      "/assets/Users.ec197544.js"
+[GIN] 2024/11/07 - 09:54:30 | 200 |         885µs |       127.0.0.1 | GET      "/api/admin/user/list"
+[GIN] 2024/11/07 - 09:54:36 | 200 |       998.5µs |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/07 - 09:54:36 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/07 - 09:54:38 | 200 |            0s |       127.0.0.1 | GET      "/assets/item_type.be442da4.js"
+[GIN] 2024/11/07 - 09:54:38 | 200 |      1.9955ms |       127.0.0.1 | GET      "/assets/ResponsiveGrid.aef89a3a.js"
+[GIN] 2024/11/07 - 09:54:38 | 200 |      1.9955ms |       127.0.0.1 | GET      "/assets/AddOrEdit.d8e32209.js"
+[GIN] 2024/11/07 - 09:54:38 | 200 |      3.6729ms |       127.0.0.1 | GET      "/api/admin/driver/list"
+[GIN] 2024/11/07 - 09:57:27 | 200 |    758.1407ms |       127.0.0.1 | POST     "/api/admin/storage/create"
+[GIN] 2024/11/07 - 09:57:28 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/07 - 09:57:28 | 200 |      1.7196ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/07 - 09:57:49 | 200 |      1.9995ms |       127.0.0.1 | GET      "/api/admin/user/list"
+[GIN] 2024/11/07 - 09:58:16 | 200 |       997.2µs |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/07 - 09:58:16 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/07 - 09:58:22 | 200 |            0s |       127.0.0.1 | GET      "/assets/Common.26ca3f61.js"
+[GIN] 2024/11/07 - 09:58:22 | 200 |            0s |       127.0.0.1 | GET      "/assets/SettingItem.56b03684.js"
+[GIN] 2024/11/07 - 09:58:22 | 200 |      1.9847ms |       127.0.0.1 | GET      "/api/admin/setting/list?group=1"
+[GIN] 2024/11/07 - 09:58:27 | 200 |            0s |       127.0.0.1 | GET      "/assets/S3.d82b2ee2.js"
+[GIN] 2024/11/07 - 09:58:27 | 200 |            0s |       127.0.0.1 | GET      "/assets/_commonjs-dynamic-modules.30ae7933.js"
+[GIN] 2024/11/07 - 09:58:27 | 200 |      3.0086ms |       127.0.0.1 | GET      "/assets/index.58df3715.js"
+[GIN] 2024/11/07 - 09:58:27 | 200 |      1.0032ms |       127.0.0.1 | GET      "/api/admin/setting/list?group=9"
+[GIN] 2024/11/07 - 09:58:34 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/07 - 09:58:34 | 200 |      1.5023ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/07 - 09:58:43 | 200 |         996µs |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/07 - 09:58:44 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/07 - 09:58:44 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 09:58:44 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/07 - 09:58:44 | 200 |      1.1991ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/07 - 09:58:44 | 200 |       516.3µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:58:44 | 200 |      1.0208ms |       127.0.0.1 | GET      "/assets/Folder.b511ba9e.css"
+[GIN] 2024/11/07 - 09:58:44 | 200 |            0s |       127.0.0.1 | GET      "/assets/Paginator.9186a5cc.js"
+[GIN] 2024/11/07 - 09:58:44 | 200 |      1.9949ms |       127.0.0.1 | GET      "/assets/icon.f7601dae.js"
+[GIN] 2024/11/07 - 09:58:44 | 200 |      8.9862ms |       127.0.0.1 | GET      "/assets/video_box.2cc27cc5.js"
+[GIN] 2024/11/07 - 09:58:44 | 200 |     27.9253ms |       127.0.0.1 | GET      "/assets/Folder.d08ea051.js"
+[GIN] 2024/11/07 - 09:58:44 | 200 |      2.9897ms |       127.0.0.1 | GET      "/assets/helper.154e83b5.js"
+[GIN] 2024/11/07 - 09:58:44 | 200 |       996.7µs |       127.0.0.1 | GET      "/assets/List.dc18ae6e.js"
+[GIN] 2024/11/07 - 09:58:44 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.9cace70c.js"
+[GIN] 2024/11/07 - 09:58:46 | 200 |       387.4µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:58:47 | 200 |       997.1µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:58:48 | 200 |     164.033ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:59:10 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:59:23 | 200 |         998µs |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/07 - 09:59:23 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/07 - 09:59:23 | 200 |       751.2µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 09:59:23 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/07 - 09:59:23 | 200 |       996.9µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/07 - 09:59:24 | 200 |       343.6µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 09:59:30 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 09:59:33 | 200 |       998.5µs |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/07 - 09:59:33 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/07 - 09:59:37 | 200 |      2.7234ms |       127.0.0.1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2024-11-07 10:06:24] closing db                                   
+[33mWARN[0m[2024-11-07 10:40:51] not enable search                            
+[GIN] 2024/11/07 - 10:42:08 | 200 |       997.4µs |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/07 - 10:42:09 | 200 |      2.1705ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/07 - 10:42:09 | 200 |      5.8964ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 10:42:14 | 200 |       552.3µs |       127.0.0.1 | POST     "/api/auth/login/hash"
+[GIN] 2024/11/07 - 10:42:14 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/07 - 10:42:15 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/07 - 10:42:15 | 200 |      4.7224ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/07 - 10:42:15 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:17 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:19 | 200 |      2.0115ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:20 | 200 |    214.6978ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:35 | 200 |    785.1958ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:38 | 200 |     96.8961ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:39 | 200 |    207.6736ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:41 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:42:42 | 200 |      1.6701ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/07 - 10:43:42 | 200 |       508.6µs |       127.0.0.1 | POST     "/api/fs/list"
+[33mWARN[0m[2024-11-08 15:06:10] not enable search                            
+[GIN] 2024/11/08 - 15:06:13 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/08 - 15:06:14 | 200 |       2.687ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/08 - 15:06:14 | 200 |       998.1µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:06:17 | 200 |       534.9µs |       127.0.0.1 | POST     "/api/auth/login/hash"
+[GIN] 2024/11/08 - 15:06:17 | 200 |       293.6µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:06:17 | 200 |      1.9948ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 15:06:17 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/08 - 15:06:17 | 200 |       562.9µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:06:18 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:06:19 | 200 |       518.1µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:06:20 | 200 |    178.4781ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:06:27 | 200 |    242.6188ms |       127.0.0.1 | POST     "/api/fs/list"
+[31mERRO[0m[2024-11-08 15:06:34] failed link /E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso: 您今日下载流量已超出1GB限制，购买VIP会员即可体验无限流量下载
+failed get link
+github.com/alist-org/alist/v3/internal/op.Link.func1
+	/source/internal/op/fs.go:260
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/source/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/source/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/source/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.Link
+	/source/internal/op/fs.go:276
+github.com/alist-org/alist/v3/internal/fs.link
+	/source/internal/fs/link.go:19
+github.com/alist-org/alist/v3/internal/fs.Link
+	/source/internal/fs/fs.go:48
+github.com/alist-org/alist/v3/server/handles.Down
+	/source/server/handles/down.go:33
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.Down
+	/source/server/middlewares/down.go:40
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/source/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2092
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1700
+failed link 
+[GIN] 2024/11/08 - 15:06:34 | 200 |    154.6304ms |       127.0.0.1 | GET      "/d/E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso?sign=_NDoi5Nz7Ng3tX4eVgmJrwCW1NyFSBqom5eRVTVxurw=:0"
+[GIN] 2024/11/08 - 15:06:34 | 302 |            0s |       127.0.0.1 | GET      "/favicon.ico"
+[31mERRO[0m[2024-11-08 15:06:40] failed link /E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso: 您今日下载流量已超出1GB限制，购买VIP会员即可体验无限流量下载
+failed get link
+github.com/alist-org/alist/v3/internal/op.Link.func1
+	/source/internal/op/fs.go:260
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/source/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/source/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/source/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.Link
+	/source/internal/op/fs.go:276
+github.com/alist-org/alist/v3/internal/fs.link
+	/source/internal/fs/link.go:19
+github.com/alist-org/alist/v3/internal/fs.Link
+	/source/internal/fs/fs.go:48
+github.com/alist-org/alist/v3/server/handles.FsGet
+	/source/server/handles/fsread.go:305
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/source/server/middlewares/auth.go:73
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/source/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2092
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1700
+failed link 
+[GIN] 2024/11/08 - 15:06:40 | 200 |    173.1171ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 15:06:43 | 200 |       299.4µs |       127.0.0.1 | POST     "/api/fs/list"
+[31mERRO[0m[2024-11-08 15:07:04] failed link /E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso: 您今日下载流量已超出1GB限制，购买VIP会员即可体验无限流量下载
+failed get link
+github.com/alist-org/alist/v3/internal/op.Link.func1
+	/source/internal/op/fs.go:260
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/source/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/source/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/source/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.Link
+	/source/internal/op/fs.go:276
+github.com/alist-org/alist/v3/internal/fs.link
+	/source/internal/fs/link.go:19
+github.com/alist-org/alist/v3/internal/fs.Link
+	/source/internal/fs/fs.go:48
+github.com/alist-org/alist/v3/server/handles.Down
+	/source/server/handles/down.go:33
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.Down
+	/source/server/middlewares/down.go:40
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/source/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2092
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1700
+failed link 
+[GIN] 2024/11/08 - 15:07:04 | 200 |     174.352ms |       127.0.0.1 | GET      "/d/E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso?sign=_NDoi5Nz7Ng3tX4eVgmJrwCW1NyFSBqom5eRVTVxurw=:0"
+[GIN] 2024/11/08 - 15:11:22 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/08 - 15:11:23 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/08 - 15:11:23 | 200 |       997.6µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:11:23 | 200 |     15.9589ms |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/08 - 15:11:23 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 15:11:23 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:11:29 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:11:32 | 200 |       997.7µs |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/08 - 15:11:32 | 200 |       995.2µs |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/08 - 15:11:33 | 200 |            0s |       127.0.0.1 | GET      "/assets/item_type.be442da4.js"
+[GIN] 2024/11/08 - 15:11:33 | 200 |            0s |       127.0.0.1 | GET      "/assets/AddOrEdit.d8e32209.js"
+[GIN] 2024/11/08 - 15:11:33 | 200 |      6.9852ms |       127.0.0.1 | GET      "/assets/ResponsiveGrid.aef89a3a.js"
+[GIN] 2024/11/08 - 15:11:33 | 200 |      5.1565ms |       127.0.0.1 | GET      "/api/admin/driver/list"
+[GIN] 2024/11/08 - 15:15:17 | 200 |    278.4021ms |       127.0.0.1 | POST     "/api/admin/storage/create"
+[GIN] 2024/11/08 - 15:15:18 | 200 |       1.995ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/08 - 15:15:18 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/08 - 15:15:23 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/08 - 15:15:24 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/08 - 15:15:24 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:15:24 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/08 - 15:15:24 | 200 |       998.2µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 15:15:24 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:15:25 | 200 |       1.995ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:15:28 | 200 |       969.9µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:15:30 | 200 |     86.3942ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:15:33 | 200 |         646µs |       127.0.0.1 | GET      "/E:/alist/kk"
+[GIN] 2024/11/08 - 15:15:33 | 200 |          43µs |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/08 - 15:15:33 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:15:33 | 200 |       979.4µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 15:15:33 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/08 - 15:15:33 | 200 |     65.4207ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:15:36 | 200 |      2.0055ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:16:42 | 200 |     63.9239ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:16:46 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:16:48 | 200 |            0s |       127.0.0.1 | GET      "/assets/Wether.7c8c853c.js"
+[GIN] 2024/11/08 - 15:16:48 | 200 |            0s |       127.0.0.1 | GET      "/assets/Users.ec197544.js"
+[GIN] 2024/11/08 - 15:16:48 | 200 |      3.9952ms |       127.0.0.1 | GET      "/api/admin/user/list"
+[GIN] 2024/11/08 - 15:16:49 | 200 |      2.9917ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/08 - 15:16:49 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/08 - 15:16:51 | 200 |       998.4µs |       127.0.0.1 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2024/11/08 - 15:16:51 | 200 |       988.7µs |       127.0.0.1 | GET      "/api/admin/driver/info?driver=Quark"
+[31mERRO[0m[2024-11-08 15:16:57] failed init storage: require login [guest]   
+[GIN] 2024/11/08 - 15:16:57 | 200 |     58.4324ms |       127.0.0.1 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2024-11-08 15:17:00] failed init storage: require login [guest]   
+[GIN] 2024/11/08 - 15:17:00 | 200 |     67.0617ms |       127.0.0.1 | POST     "/api/admin/storage/update"
+[31mERRO[0m[2024-11-08 15:17:23] failed init storage: require login [guest]   
+[GIN] 2024/11/08 - 15:17:23 | 200 |     68.9698ms |       127.0.0.1 | POST     "/api/admin/storage/update"
+[GIN] 2024/11/08 - 15:18:01 | 200 |     71.8007ms |       127.0.0.1 | POST     "/api/admin/storage/update"
+[GIN] 2024/11/08 - 15:18:01 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/08 - 15:18:01 | 200 |     18.4229ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/08 - 15:18:04 | 200 |      1.9911ms |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/08 - 15:18:04 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/08 - 15:18:05 | 200 |      1.1582ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 15:18:05 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/08 - 15:18:05 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 15:18:05 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:18:06 | 200 |       995.8µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:18:06 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 15:18:08 | 200 |    108.2989ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 17:56:18 | 200 |    604.1988ms |       127.0.0.1 | POST     "/api/fs/remove"
+[GIN] 2024/11/08 - 17:56:19 | 200 |       524.7µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 17:56:23 | 200 |    119.7283ms |       127.0.0.1 | POST     "/api/fs/remove"
+[GIN] 2024/11/08 - 17:56:23 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 17:56:33 | 200 |    114.9289ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       467.1µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       998.5µs |       127.0.0.1 | GET      "/assets/File.5fcdefb0.js"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       531.1µs |       127.0.0.1 | GET      "/assets/video.e9e9647a.js"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       2.574ms |       127.0.0.1 | GET      "/assets/hls.265ae0aa.js"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       997.1µs |       127.0.0.1 | GET      "/images/figplayer.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |            0s |       127.0.0.1 | GET      "/images/potplayer.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |      2.9913ms |       127.0.0.1 | GET      "/images/iina.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |      2.9936ms |       127.0.0.1 | GET      "/images/omniplayer.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       522.8µs |       127.0.0.1 | GET      "/images/nplayer.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |      3.0027ms |       127.0.0.1 | GET      "/images/vlc.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |      5.9737ms |       127.0.0.1 | GET      "/images/fileball.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |      1.9953ms |       127.0.0.1 | GET      "/images/mxplayer-pro.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |       5.983ms |       127.0.0.1 | GET      "/images/mxplayer.webp"
+[GIN] 2024/11/08 - 17:56:36 | 200 |     21.6536ms |       127.0.0.1 | GET      "/images/infuse.webp"
+[33mWARN[0m[2024-11-08 17:56:37] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:22153: wsasend: An established connection was aborted by the software in your host machine.  
+[33mWARN[0m[2024-11-08 17:56:37] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 457556 ,sendSize:32525301360,  
+
+
+[31m2024/11/08 17:56:37 [Recovery] 2024/11/08 - 17:56:37 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x78ac08)
+/source/internal/net/request.go:179 (0xff6724)
+/source/internal/net/request.go:184 (0xff66b0)
+/source/internal/net/request.go:445 (0xffb7c1)
+/source/pkg/utils/io.go:176 (0xbcdfca)
+/source/server/common/proxy.go:58 (0x11beb9b)
+/source/server/handles/down.go:112 (0x2028144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x1ff501a)
+/source/server/middlewares/down.go:40 (0x1ff4f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x1ff4ada)
+/source/server/middlewares/check.go:14 (0x1ff4ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x11b31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x11b22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x11b11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x11b0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xb3b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xb1aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x7fff80)
+[0m
+[GIN] 2024/11/08 - 17:56:37 | 206 |     942.558ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/11/08 - 17:56:37 | 206 |    405.3187ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[33mWARN[0m[2024-11-08 17:56:38] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:22154: wsasend: An established connection was aborted by the software in your host machine.  
+[33mWARN[0m[2024-11-08 17:56:38] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 310155 ,sendSize:2147483647,  
+
+
+[31m2024/11/08 17:56:38 [Recovery] 2024/11/08 - 17:56:38 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x78ac08)
+/source/internal/net/request.go:179 (0xff6724)
+/source/internal/net/request.go:184 (0xff66b0)
+/source/internal/net/request.go:445 (0xffb7c1)
+/source/pkg/utils/io.go:176 (0xbcdfca)
+/source/server/common/proxy.go:58 (0x11beb9b)
+/source/server/handles/down.go:112 (0x2028144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x1ff501a)
+/source/server/middlewares/down.go:40 (0x1ff4f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x1ff4ada)
+/source/server/middlewares/check.go:14 (0x1ff4ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x11b31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x11b22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x11b11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x11b0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xb3b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xb1aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x7fff80)
+[0m
+[GIN] 2024/11/08 - 17:56:38 | 206 |    714.5762ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[33mWARN[0m[2024-11-08 17:56:38] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:22125: wsasend: An established connection was aborted by the software in your host machine.  
+[33mWARN[0m[2024-11-08 17:56:38] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 310156 ,sendSize:2147483647,  
+
+
+[31m2024/11/08 17:56:38 [Recovery] 2024/11/08 - 17:56:38 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x78ac08)
+/source/internal/net/request.go:179 (0xff6724)
+/source/internal/net/request.go:184 (0xff66b0)
+/source/internal/net/request.go:445 (0xffb7c1)
+/source/pkg/utils/io.go:176 (0xbcdfca)
+/source/server/common/proxy.go:58 (0x11beb9b)
+/source/server/handles/down.go:112 (0x2028144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x1ff501a)
+/source/server/middlewares/down.go:40 (0x1ff4f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x1ff4ada)
+/source/server/middlewares/check.go:14 (0x1ff4ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x11b31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x11b22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x11b1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x11b11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x11b0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xb3b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xb1aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x7fff80)
+[0m
+[GIN] 2024/11/08 - 17:56:38 | 206 |    728.0363ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/11/08 - 17:56:39 | 206 |    610.1272ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/11/08 - 17:57:37 | 200 |      19.947ms |       127.0.0.1 | GET      "/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv"
+[GIN] 2024/11/08 - 17:57:45 | 200 |    119.7462ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/08 - 17:57:45 | 200 |     22.8757ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/08 - 17:57:45 | 200 |     13.9638ms |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/08 - 17:57:45 | 200 |     42.8845ms |       127.0.0.1 | POST     "/api/fs/get"
+[33mWARN[0m[2024-11-22 13:07:33] not enable search                            
+[GIN] 2024/11/22 - 13:07:49 | 200 |       507.2µs |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/22 - 13:07:49 | 200 |      4.9925ms |       127.0.0.1 | GET      "/assets/index.c4c82a28.css"
+[GIN] 2024/11/22 - 13:07:49 | 200 |     24.9332ms |       127.0.0.1 | GET      "/assets/index.3586d182.js"
+[GIN] 2024/11/22 - 13:07:50 | 200 |       995.9µs |       127.0.0.1 | GET      "/assets/entry.acbef887.js"
+[GIN] 2024/11/22 - 13:07:50 | 200 |      1.5771ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:07:50 | 200 |            0s |       127.0.0.1 | GET      "/static/manifest.json"
+[GIN] 2024/11/22 - 13:07:50 | 200 |       507.4µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:07:50 | 200 |            0s |       127.0.0.1 | GET      "/assets/useTitle.c2099cad.js"
+[GIN] 2024/11/22 - 13:07:50 | 200 |       999.8µs |       127.0.0.1 | GET      "/assets/index.d5b376e7.js"
+[GIN] 2024/11/22 - 13:07:50 | 200 |            0s |       127.0.0.1 | GET      "/assets/webauthn-json.browser-ponyfill.1c672167.js"
+[GIN] 2024/11/22 - 13:07:52 | 200 |      1.2198ms |       127.0.0.1 | POST     "/api/auth/login/hash"
+[GIN] 2024/11/22 - 13:07:52 | 200 |       625.8µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:07:52 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.2a6ef518.js"
+[GIN] 2024/11/22 - 13:07:52 | 200 |            0s |       127.0.0.1 | GET      "/assets/FolderTree.43c2ba40.js"
+[GIN] 2024/11/22 - 13:07:52 | 200 |      5.9827ms |       127.0.0.1 | GET      "/assets/Layout.0b43b868.js"
+[GIN] 2024/11/22 - 13:07:52 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.d3403400.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      9.9808ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:07:53 | 200 |       505.9µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      4.5028ms |       127.0.0.1 | GET      "/assets/video_box.2cc27cc5.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |     18.9482ms |       127.0.0.1 | GET      "/assets/Folder.d08ea051.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      1.0145ms |       127.0.0.1 | GET      "/assets/icon.f7601dae.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      1.0069ms |       127.0.0.1 | GET      "/assets/index.7a46360f.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      2.9823ms |       127.0.0.1 | GET      "/assets/Folder.b511ba9e.css"
+[GIN] 2024/11/22 - 13:07:53 | 200 |            0s |       127.0.0.1 | GET      "/assets/_commonjs-dynamic-modules.30ae7933.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |            0s |       127.0.0.1 | GET      "/assets/Paginator.9186a5cc.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.9cace70c.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      3.9866ms |       127.0.0.1 | GET      "/assets/helper.154e83b5.js"
+[GIN] 2024/11/22 - 13:07:53 | 200 |      1.9968ms |       127.0.0.1 | GET      "/assets/List.dc18ae6e.js"
+[GIN] 2024/11/22 - 13:07:59 | 200 |       997.9µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:07:59 | 200 |            0s |       127.0.0.1 | GET      "/assets/index.2526a4ab.js"
+[GIN] 2024/11/22 - 13:07:59 | 200 |       997.6µs |       127.0.0.1 | GET      "/assets/Profile.aebed130.js"
+[GIN] 2024/11/22 - 13:08:06 | 200 |            0s |       127.0.0.1 | GET      "/assets/DeletePopover.2e09042b.js"
+[GIN] 2024/11/22 - 13:08:06 | 200 |       162.6µs |       127.0.0.1 | GET      "/assets/Storages.753f8e49.js"
+[GIN] 2024/11/22 - 13:08:06 | 200 |       997.3µs |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/22 - 13:08:06 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/22 - 13:08:12 | 200 |            0s |       127.0.0.1 | GET      "/assets/ResponsiveGrid.aef89a3a.js"
+[GIN] 2024/11/22 - 13:08:12 | 200 |       995.9µs |       127.0.0.1 | GET      "/assets/AddOrEdit.d8e32209.js"
+[GIN] 2024/11/22 - 13:08:12 | 200 |            0s |       127.0.0.1 | GET      "/assets/item_type.be442da4.js"
+[GIN] 2024/11/22 - 13:08:12 | 200 |       10.79ms |       127.0.0.1 | GET      "/api/admin/driver/list"
+[GIN] 2024/11/22 - 13:08:44 | 200 |       998.2µs |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/22 - 13:08:44 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:08:45 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:08:45 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 13:08:45 | 200 |      1.0023ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:08:45 | 200 |       839.5µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:08:52 | 200 |            0s |       127.0.0.1 | GET      "/@manage/users"
+[GIN] 2024/11/22 - 13:08:52 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:08:52 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:08:52 | 200 |            0s |       127.0.0.1 | GET      "/assets/Users.ec197544.js"
+[GIN] 2024/11/22 - 13:08:52 | 200 |            0s |       127.0.0.1 | GET      "/assets/Wether.7c8c853c.js"
+[GIN] 2024/11/22 - 13:08:52 | 200 |       654.9µs |       127.0.0.1 | GET      "/api/admin/user/list"
+[31mERRO[0m[2024-11-22 13:14:18] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2024/11/22 - 13:14:18 | 200 |      6.8762ms |       127.0.0.1 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2024-11-22 13:16:08] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2024/11/22 - 13:16:08 | 200 |      7.3732ms |       127.0.0.1 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2024-11-22 13:17:24] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2024/11/22 - 13:17:24 | 200 |      3.8155ms |       127.0.0.1 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2024-11-22 13:17:46] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2024/11/22 - 13:17:46 | 200 |       996.5µs |       127.0.0.1 | POST     "/api/admin/storage/create"
+[36mINFO[0m[2024-11-22 13:17:58] refreshing baidu_netdisk token.              
+[GIN] 2024/11/22 - 13:18:00 | 200 |     1.697896s |       127.0.0.1 | POST     "/api/admin/storage/create"
+[GIN] 2024/11/22 - 13:18:00 | 200 |       660.3µs |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/22 - 13:18:00 | 200 |      1.3501ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/22 - 13:18:09 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/22 - 13:18:09 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:18:09 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:18:10 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 13:18:10 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:18:10 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:18:17 | 200 |       702.1µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:18:19 | 200 |       997.6µs |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/22 - 13:18:19 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/22 - 13:18:28 | 200 |      2.9925ms |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/22 - 13:18:28 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:18:28 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:18:28 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:18:28 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 13:18:28 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:18:31 | 200 |     10.9701ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:18:32 | 200 |    332.9362ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:08 | 200 |       696.1µs |       127.0.0.1 | GET      "/api/admin/storage/get?id=3"
+[GIN] 2024/11/22 - 13:19:08 | 200 |       997.5µs |       127.0.0.1 | GET      "/api/admin/driver/info?driver=BaiduNetdisk"
+[GIN] 2024/11/22 - 13:19:18 | 200 |    280.4171ms |       127.0.0.1 | POST     "/api/admin/storage/update"
+[GIN] 2024/11/22 - 13:19:18 | 200 |            0s |       127.0.0.1 | GET      "/api/admin/driver/names"
+[GIN] 2024/11/22 - 13:19:18 | 200 |      5.9841ms |       127.0.0.1 | GET      "/api/admin/storage/list"
+[GIN] 2024/11/22 - 13:19:24 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/22 - 13:19:25 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:19:25 | 200 |      1.0149ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:19:25 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 13:19:25 | 200 |       997.3µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:19:25 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:26 | 200 |       997.2µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:27 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:28 | 200 |    305.8148ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:55 | 200 |            0s |       127.0.0.1 | GET      "/E:/alist"
+[GIN] 2024/11/22 - 13:19:55 | 200 |         471µs |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 13:19:55 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 13:19:55 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 13:19:55 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:19:55 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:57 | 200 |    333.1916ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:19:58 | 200 |     363.429ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:20:00 | 200 |     390.941ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:24:54 | 200 |    584.5423ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:24:56 | 200 |    876.4641ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:24:56 | 200 |            0s |       127.0.0.1 | GET      "/assets/File.5fcdefb0.js"
+[GIN] 2024/11/22 - 13:24:56 | 200 |      2.0102ms |       127.0.0.1 | GET      "/assets/hls.265ae0aa.js"
+[GIN] 2024/11/22 - 13:24:56 | 200 |            0s |       127.0.0.1 | GET      "/assets/video.e9e9647a.js"
+[GIN] 2024/11/22 - 13:24:56 | 302 |            0s |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/01 - The essentials of AutoCAD.srt?sign=Sd6e83W6V4xTRt4f3i1vZF3T3UbS35fmAShGz2puaDA=:0"
+[GIN] 2024/11/22 - 13:24:56 | 200 |       1.996ms |       127.0.0.1 | GET      "/images/vlc.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |       1.996ms |       127.0.0.1 | GET      "/images/potplayer.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |            0s |       127.0.0.1 | GET      "/images/iina.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |     14.9611ms |       127.0.0.1 | GET      "/images/nplayer.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |            0s |       127.0.0.1 | GET      "/images/mxplayer.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |         998µs |       127.0.0.1 | GET      "/images/infuse.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |      5.9864ms |       127.0.0.1 | GET      "/images/figplayer.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |      2.9894ms |       127.0.0.1 | GET      "/images/omniplayer.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |      1.9984ms |       127.0.0.1 | GET      "/images/fileball.webp"
+[GIN] 2024/11/22 - 13:24:56 | 200 |      1.9889ms |       127.0.0.1 | GET      "/images/mxplayer-pro.webp"
+[GIN] 2024/11/22 - 13:26:26 | 200 |    1.0863865s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:26:26 | 302 |       997.8µs |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/02 - The advantages of using AutoCAD.srt?sign=Jzk8jsY6-taDOboJDS1kcNCeLYeOqseLxyXfwChhQWw=:0"
+[GIN] 2024/11/22 - 13:27:29 | 200 |     1.097238s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:27:29 | 302 |       997.4µs |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/03 - What you should know before watching this course.srt?sign=FmwWcxy6VomT6jqvhCuh5fpCsNSUh19j-OT5fH_WpEc=:0"
+[GIN] 2024/11/22 - 13:29:12 | 200 |     1.054442s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:29:12 | 302 |            0s |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/04 - Using the exercise files.srt?sign=W477tw5RbMsrJowROhX8tKHxmSBSnKyQPpBkaDrBoFg=:0"
+[GIN] 2024/11/22 - 13:30:40 | 200 |      4.9864ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:30:43 | 200 |    985.9804ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:30:43 | 200 |            0s |       127.0.0.1 | GET      "/assets/markdown.030201d4.js"
+[GIN] 2024/11/22 - 13:30:43 | 302 |            0s |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/01 - The essentials of AutoCAD.srt?sign=Sd6e83W6V4xTRt4f3i1vZF3T3UbS35fmAShGz2puaDA=:0&alist_ts=1732253443652"
+[GIN] 2024/11/22 - 13:30:44 | 302 |            0s |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/01 - The essentials of AutoCAD.srt?sign=Sd6e83W6V4xTRt4f3i1vZF3T3UbS35fmAShGz2puaDA=:0"
+[GIN] 2024/11/22 - 13:30:47 | 200 |      5.9828ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:30:50 | 200 |    615.2576ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:30:50 | 302 |       778.9µs |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/01 - The essentials of AutoCAD.srt?sign=Sd6e83W6V4xTRt4f3i1vZF3T3UbS35fmAShGz2puaDA=:0&alist_ts=1732253450437"
+[GIN] 2024/11/22 - 13:30:51 | 302 |            0s |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/01 - The essentials of AutoCAD.srt?sign=Sd6e83W6V4xTRt4f3i1vZF3T3UbS35fmAShGz2puaDA=:0"
+[GIN] 2024/11/22 - 13:30:51 | 200 |      1.2269ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:30:53 | 200 |    650.2233ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:30:53 | 302 |            0s |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/01 - Introduction/02 - The advantages of using AutoCAD.srt?sign=Jzk8jsY6-taDOboJDS1kcNCeLYeOqseLxyXfwChhQWw=:0"
+[GIN] 2024/11/22 - 13:31:00 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:31:03 | 200 |    350.3249ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 13:31:08 | 200 |    2.5838756s |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 13:31:08 | 302 |      2.0012ms |       127.0.0.1 | GET      "/p/E:/alist/baidu/2024/LinkedIn - AutoCAD 2024 Essential Training/09 - 8. Modifying Objects/03 - Using Rotate and Scale.srt?sign=UIbG_q3Asn1PG-gG5o2nDY_mxw095FJ4uOfEdZ6XXdA=:0"
+[GIN] 2024/11/22 - 16:58:30 | 200 |      9.4867ms |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/22 - 16:58:31 | 200 |     55.7867ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/22 - 16:58:31 | 200 |     15.7987ms |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/22 - 16:58:31 | 200 |       3.395ms |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/22 - 16:58:31 | 200 |     18.0678ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/22 - 16:58:31 | 200 |      1.0748ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 16:58:36 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 16:58:37 | 200 |         507µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/22 - 16:58:48 | 200 |     508.674ms |       127.0.0.1 | POST     "/api/fs/list"
+[36mINFO[0m[2024-11-22 18:10:01] closing db                                   
+[33mWARN[0m[2024-11-25 16:17:03] not enable search                            
+[GIN] 2024/11/25 - 16:17:11 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/11/25 - 16:17:12 | 200 |       513.3µs |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/11/25 - 16:17:12 | 200 |       699.3µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/25 - 16:17:12 | 200 |      4.9768ms |       127.0.0.1 | GET      "/assets/index.d5b376e7.js"
+[GIN] 2024/11/25 - 16:17:14 | 200 |       682.2µs |       127.0.0.1 | POST     "/api/auth/login/hash"
+[GIN] 2024/11/25 - 16:17:14 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/11/25 - 16:17:14 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/11/25 - 16:17:14 | 200 |      2.0097ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/11/25 - 16:17:14 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/25 - 16:17:17 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/25 - 16:17:17 | 200 |      1.8622ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/25 - 16:17:20 | 200 |    232.7244ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/25 - 16:17:43 | 200 |    216.1542ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/25 - 16:17:47 | 200 |      4.0628ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/11/25 - 16:17:52 | 200 |     97.1379ms |       127.0.0.1 | POST     "/api/fs/remove"
+[GIN] 2024/11/25 - 16:17:53 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[33mWARN[0m[2024-12-05 13:59:52] not enable search                            
+[GIN] 2024/12/05 - 13:59:55 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/12/05 - 13:59:58 | 200 |      1.5491ms |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/12/05 - 13:59:58 | 200 |       997.5µs |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/12/05 - 13:59:58 | 200 |       999.6µs |       127.0.0.1 | GET      "/assets/index.d5b376e7.js"
+[GIN] 2024/12/05 - 14:00:01 | 200 |            0s |       127.0.0.1 | POST     "/api/auth/login/hash"
+[GIN] 2024/12/05 - 14:00:01 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/12/05 - 14:00:01 | 200 |      1.7042ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/12/05 - 14:00:01 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/12/05 - 14:00:01 | 200 |       528.7µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:00:03 | 200 |      8.4804ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:00:04 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:00:06 | 200 |    307.9694ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:06:22 | 200 |    328.1485ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:06:24 | 200 |       595.5µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/12/05 - 14:06:24 | 200 |       947.3µs |       127.0.0.1 | GET      "/assets/File.5fcdefb0.js"
+[GIN] 2024/12/05 - 14:06:24 | 200 |       632.7µs |       127.0.0.1 | GET      "/assets/video.e9e9647a.js"
+[GIN] 2024/12/05 - 14:06:24 | 200 |      1.6802ms |       127.0.0.1 | GET      "/assets/hls.265ae0aa.js"
+[GIN] 2024/12/05 - 14:06:24 | 200 |      1.0023ms |       127.0.0.1 | GET      "/images/nplayer.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |            0s |       127.0.0.1 | GET      "/images/figplayer.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |       516.2µs |       127.0.0.1 | GET      "/images/vlc.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |     11.8922ms |       127.0.0.1 | GET      "/images/iina.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |      4.5728ms |       127.0.0.1 | GET      "/images/fileball.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |      5.4978ms |       127.0.0.1 | GET      "/images/potplayer.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |      1.9946ms |       127.0.0.1 | GET      "/images/mxplayer.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |            0s |       127.0.0.1 | GET      "/images/infuse.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |      2.7634ms |       127.0.0.1 | GET      "/images/omniplayer.webp"
+[GIN] 2024/12/05 - 14:06:24 | 200 |            0s |       127.0.0.1 | GET      "/images/mxplayer-pro.webp"
+[33mWARN[0m[2024-12-05 14:06:25] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6931: wsasend: An established connection was aborted by the software in your host machine.  
+[33mWARN[0m[2024-12-05 14:06:25] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 421199 ,sendSize:32525301360,  
+
+
+[31m2024/12/05 14:06:25 [Recovery] 2024/12/05 - 14:06:25 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:06:25 | 206 |    696.7661ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:06:25 | 206 |    420.7076ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[33mWARN[0m[2024-12-05 14:06:32] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6934: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:06:32] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 49807360 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:06:32 [Recovery] 2024/12/05 - 14:06:32 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:06:32 | 206 |    6.6385023s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[33mWARN[0m[2024-12-05 14:06:35] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6938: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:06:35] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 9956680 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:06:35 [Recovery] 2024/12/05 - 14:06:35 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:06:35 | 206 |    2.5686477s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:06:36 | 206 |    196.5398ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:06:36 | 206 |    146.6692ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:07:29 | 200 |       998.6µs |       127.0.0.1 | GET      "/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv"
+[33mWARN[0m[2024-12-05 14:07:29] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6936: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:07:29] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 939928902 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:07:29 [Recovery] 2024/12/05 - 14:07:29 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:07:29 | 206 |   53.4389547s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:07:31 | 200 |            0s |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/12/05 - 14:07:31 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/12/05 - 14:07:31 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/12/05 - 14:07:31 | 200 |       1.693ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/12/05 - 14:07:31 | 200 |       901.5µs |       127.0.0.1 | GET      "/assets/File.5fcdefb0.js"
+[GIN] 2024/12/05 - 14:07:31 | 200 |      3.7459ms |       127.0.0.1 | GET      "/assets/hls.265ae0aa.js"
+[GIN] 2024/12/05 - 14:07:31 | 200 |       998.8µs |       127.0.0.1 | GET      "/assets/video.e9e9647a.js"
+[GIN] 2024/12/05 - 14:07:31 | 200 |       997.1µs |       127.0.0.1 | GET      "/images/iina.webp"
+[GIN] 2024/12/05 - 14:07:31 | 200 |       994.1µs |       127.0.0.1 | GET      "/images/vlc.webp"
+[GIN] 2024/12/05 - 14:07:31 | 200 |     26.0976ms |       127.0.0.1 | GET      "/images/potplayer.webp"
+[GIN] 2024/12/05 - 14:07:31 | 200 |      2.9921ms |       127.0.0.1 | GET      "/images/nplayer.webp"
+[GIN] 2024/12/05 - 14:07:31 | 200 |      5.2828ms |       127.0.0.1 | GET      "/images/omniplayer.webp"
+[GIN] 2024/12/05 - 14:07:31 | 200 |            0s |       127.0.0.1 | GET      "/images/figplayer.webp"
+[GIN] 2024/12/05 - 14:07:32 | 200 |      4.9863ms |       127.0.0.1 | GET      "/images/infuse.webp"
+[GIN] 2024/12/05 - 14:07:32 | 200 |       6.981ms |       127.0.0.1 | GET      "/images/fileball.webp"
+[GIN] 2024/12/05 - 14:07:32 | 200 |      9.9724ms |       127.0.0.1 | GET      "/images/mxplayer-pro.webp"
+[GIN] 2024/12/05 - 14:07:32 | 200 |       850.3µs |       127.0.0.1 | GET      "/images/mxplayer.webp"
+[33mWARN[0m[2024-12-05 14:07:32] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6993: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:07:32] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 4738377 ,sendSize:34603008,  
+
+
+[31m2024/12/05 14:07:32 [Recovery] 2024/12/05 - 14:07:32 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:07:32 | 206 |     600.334ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+
+
+[31m2024/12/05 14:07:39 [Recovery] 2024/12/05 - 14:07:39 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:07:39 | 206 |    1.2887237s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+
+
+[31m2024/12/05 14:09:11 [Recovery] 2024/12/05 - 14:09:11 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:09:11 | 206 |         1m32s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+
+
+[31m2024/12/05 14:09:19 [Recovery] 2024/12/05 - 14:09:19 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:09:19 | 206 |    7.5873608s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:09:20 | 200 |       329.9µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:09:33 | 200 |    5.1963094s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:09:51 | 200 |     129.614ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:09:53 | 200 |       513.5µs |       127.0.0.1 | POST     "/api/fs/get"
+[33mWARN[0m[2024-12-05 14:09:53] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6992: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:09:53] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 1114112 ,sendSize:3116579511,  
+
+
+[31m2024/12/05 14:09:53 [Recovery] 2024/12/05 - 14:09:53 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:09:53 | 206 |    338.4885ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[GIN] 2024/12/05 - 14:10:02 | 206 |    9.0090521s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[33mWARN[0m[2024-12-05 14:10:06] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6937: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:10:06] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 15728640 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:10:07 [Recovery] 2024/12/05 - 14:10:07 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:10:07 | 206 |     4.194806s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[GIN] 2024/12/05 - 14:10:07 | 206 |    190.5609ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[GIN] 2024/12/05 - 14:10:07 | 206 |    170.9351ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[33mWARN[0m[2024-12-05 14:10:25] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6935: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:10:25] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 19398656 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:10:25 [Recovery] 2024/12/05 - 14:10:25 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:10:25 | 206 |   18.7729237s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[GIN] 2024/12/05 - 14:10:38 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:10:45 | 200 |    205.3722ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:10:46 | 200 |       997.3µs |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/12/05 - 14:10:49 | 206 |    218.3574ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[33mWARN[0m[2024-12-05 14:10:51] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7201: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:10:51] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 38280520 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:10:51 [Recovery] 2024/12/05 - 14:10:51 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:10:51 | 206 |    1.9843567s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:10:51 | 206 |    177.4567ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[33mWARN[0m[2024-12-05 14:10:54] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7179: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:10:54] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 26869760 ,sendSize:2128642048,  
+
+
+[31m2024/12/05 14:10:54 [Recovery] 2024/12/05 - 14:10:54 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:10:54 | 206 |    28.037616s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/剧场版 鲁邦三世：卡里奥S特罗城.1979.1080p/剧场版 鲁邦三世：卡里奥斯特罗城.1979.1080p.BluRay.x264.AAC.CHS-LxyLab.mkv?sign=kRWDn10qkeGAZM3tMKR2SdPy9zsg7D6FMbquF-h8CSs=:0"
+[GIN] 2024/12/05 - 14:11:19 | 200 |       990.1µs |       127.0.0.1 | GET      "/assets/video360.68a2da6a.js"
+[GIN] 2024/12/05 - 14:11:19 | 200 |      5.6144ms |       127.0.0.1 | GET      "/assets/video360.f0192288.css"
+[33mWARN[0m[2024-12-05 14:11:20] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7227: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:11:20] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 1351227 ,sendSize:9437184,  
+[GIN] 2024/12/05 - 14:11:20 | 206 |    252.1629ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[33mWARN[0m[2024-12-05 14:11:21] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7228: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:11:21] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 10296655 ,sendSize:10500123215,  
+
+
+[31m2024/12/05 14:11:21 [Recovery] 2024/12/05 - 14:11:21 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:11:21 | 206 |    669.0704ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:11:27 | 206 |    6.1921832s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:11:29 | 206 |    203.4217ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:11:30 | 206 |    214.6024ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[33mWARN[0m[2024-12-05 14:11:32] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7236: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:11:32] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 18324808 ,sendSize:10500123215,  
+
+
+[31m2024/12/05 14:11:32 [Recovery] 2024/12/05 - 14:11:32 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:11:32 | 206 |    5.4025039s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:11:41 | 200 |       514.8µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:11:45 | 200 |      4.0482ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:11:50 | 200 |    165.2059ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:11:53 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:11:56 | 200 |    244.7514ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:01 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:03 | 200 |    592.1224ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:04 | 200 |    396.0748ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:06 | 200 |    685.6281ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:11 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[33mWARN[0m[2024-12-05 14:12:11] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7197: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:12:11] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 10485760 ,sendSize:10500123215,  
+
+
+[31m2024/12/05 14:12:11 [Recovery] 2024/12/05 - 14:12:11 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:12:11 | 206 |         1m24s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:12:11 | 200 |       963.3µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:12 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:22 | 200 |      2.9888ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:26 | 200 |         357µs |       127.0.0.1 | POST     "/api/fs/get"
+[33mWARN[0m[2024-12-05 14:12:27] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7258: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:12:27] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 2162688 ,sendSize:829423616,  
+
+
+[31m2024/12/05 14:12:27 [Recovery] 2024/12/05 - 14:12:27 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:12:27 | 206 |    359.9477ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[33mWARN[0m[2024-12-05 14:12:27] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7294: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:12:27] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 499023 ,sendSize:32525301360,  
+
+
+[31m2024/12/05 14:12:27 [Recovery] 2024/12/05 - 14:12:27 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:12:27 | 206 |    695.2454ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:12:28 | 206 |    407.3969ms |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:12:57 | 200 |       659.9µs |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:12:59 | 200 |       999.6µs |       127.0.0.1 | POST     "/api/fs/list"
+[33mWARN[0m[2024-12-05 14:13:01] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7239: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:01] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 73400320 ,sendSize:10490030671,  
+
+
+[31m2024/12/05 14:13:01 [Recovery] 2024/12/05 - 14:13:01 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:01 | 206 |         1m30s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[GIN] 2024/12/05 - 14:13:09 | 200 |    122.5723ms |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:13:10 | 200 |      2.9456ms |       127.0.0.1 | POST     "/api/fs/get"
+[33mWARN[0m[2024-12-05 14:13:11] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7322: wsasend: An established connection was aborted by the software in your host machine.  
+[33mWARN[0m[2024-12-05 14:13:11] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 5115003 ,sendSize:1810398229,  
+
+
+[31m2024/12/05 14:13:11 [Recovery] 2024/12/05 - 14:13:11 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:11 | 206 |    969.8428ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/龙~猫.1988.BD-1080p(蓝光国日粤三音轨中文字幕)/龙猫(蓝光国日粤三音轨中文字幕).My.Neighbor.Totoro.1988.BD-1080p.X264.AAC.3AUDIO.CHS-UUMp4.mp4?sign=kt3lQcQMeACufCHub-PExL4WbRlDNnIytcCvhOdZVPc=:0"
+[GIN] 2024/12/05 - 14:13:11 | 206 |    427.0656ms |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/龙~猫.1988.BD-1080p(蓝光国日粤三音轨中文字幕)/龙猫(蓝光国日粤三音轨中文字幕).My.Neighbor.Totoro.1988.BD-1080p.X264.AAC.3AUDIO.CHS-UUMp4.mp4?sign=kt3lQcQMeACufCHub-PExL4WbRlDNnIytcCvhOdZVPc=:0"
+[33mWARN[0m[2024-12-05 14:13:15] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7345: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:15] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 15944820 ,sendSize:1805382533,  
+
+
+[31m2024/12/05 14:13:15 [Recovery] 2024/12/05 - 14:13:15 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:15 | 206 |    4.0026437s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/龙~猫.1988.BD-1080p(蓝光国日粤三音轨中文字幕)/龙猫(蓝光国日粤三音轨中文字幕).My.Neighbor.Totoro.1988.BD-1080p.X264.AAC.3AUDIO.CHS-UUMp4.mp4?sign=kt3lQcQMeACufCHub-PExL4WbRlDNnIytcCvhOdZVPc=:0"
+[33mWARN[0m[2024-12-05 14:13:16] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7298: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:16] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 96141312 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:13:16 [Recovery] 2024/12/05 - 14:13:16 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:16 | 206 |    48.780042s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[33mWARN[0m[2024-12-05 14:13:19] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7350: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:19] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 14614528 ,sendSize:1540030464,  
+
+
+[31m2024/12/05 14:13:19 [Recovery] 2024/12/05 - 14:13:19 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:19 | 206 |    3.8768773s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/龙~猫.1988.BD-1080p(蓝光国日粤三音轨中文字幕)/龙猫(蓝光国日粤三音轨中文字幕).My.Neighbor.Totoro.1988.BD-1080p.X264.AAC.3AUDIO.CHS-UUMp4.mp4?sign=kt3lQcQMeACufCHub-PExL4WbRlDNnIytcCvhOdZVPc=:0"
+[33mWARN[0m[2024-12-05 14:13:19] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7202: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:19] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 1074396484 ,sendSize:2147483647,  
+[33mWARN[0m[2024-12-05 14:13:19] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:7232: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:19] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 303693824 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:13:19 [Recovery] 2024/12/05 - 14:13:19 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:19 | 206 |         2m28s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+
+
+[31m2024/12/05 14:13:19 [Recovery] 2024/12/05 - 14:13:19 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:19 | 206 |         1m50s |       127.0.0.1 | GET      "/p/E:/alist/kk/宫崎骏作品合集/听见~涛声[BD 1920x1036 HEVC-10bit OPUS][简繁内封字幕][1993]/[SAIO-Raws] Ocean Waves [BD 1920x1036 HEVC-10bit OPUS ASSx2].mkv?sign=DyYgjrR6ag8fV46rtUvvfOvCEdRFzfxCXj8vCZY0-Vg=:0"
+[33mWARN[0m[2024-12-05 14:13:19] ServeHttp error. err: write tcp 127.0.0.1:5244->127.0.0.1:6990: wsasend: An existing connection was forcibly closed by the remote host.  
+[33mWARN[0m[2024-12-05 14:13:19] Maybe size incorrect or reader not giving correct/full data, or connection closed before finish. written bytes: 299957572 ,sendSize:2147483647,  
+
+
+[31m2024/12/05 14:13:19 [Recovery] 2024/12/05 - 14:13:19 panic recovered:
+close of closed channel
+/usr/local/go/src/runtime/chan.go:405 (0x8aac08)
+/source/internal/net/request.go:179 (0x1116724)
+/source/internal/net/request.go:184 (0x11166b0)
+/source/internal/net/request.go:445 (0x111b7c1)
+/source/pkg/utils/io.go:176 (0xcedfca)
+/source/server/common/proxy.go:58 (0x12deb9b)
+/source/server/handles/down.go:112 (0x2148144)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x211501a)
+/source/server/middlewares/down.go:40 (0x2114f84)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x2114ada)
+/source/server/middlewares/check.go:14 (0x2114ac8)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d31ce)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102 (0x12d31bb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d2304)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249 (0x12d22eb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185 (0x12d1731)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633 (0x12d11a0)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589 (0x12d0cd1)
+/usr/local/go/src/net/http/server.go:3210 (0xc5b58d)
+/usr/local/go/src/net/http/server.go:2092 (0xc3aaaf)
+/usr/local/go/src/runtime/asm_amd64.s:1700 (0x91ff80)
+[0m
+[GIN] 2024/12/05 - 14:13:19 | 206 |          4m0s |       127.0.0.1 | GET      "/p/E:/alist/kk/阿凡达：水之道 (2022) 4K HDR 杜比视界 国英音轨 简英特效字幕/Avatar.The.Way.of.Water.2022.IMAX.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H265-HDHIVE.mkv?sign=vnD3Ja5_aHAq59X3mVdIOnHsfGXWXcxk86N0LrYS0Ww=:0"
+[GIN] 2024/12/05 - 14:14:08 | 200 |            0s |       127.0.0.1 | GET      "/"
+[GIN] 2024/12/05 - 14:14:08 | 200 |       988.9µs |       127.0.0.1 | GET      "/api/public/settings"
+[GIN] 2024/12/05 - 14:14:08 | 200 |            0s |       127.0.0.1 | GET      "/api/me"
+[GIN] 2024/12/05 - 14:14:08 | 200 |      2.8855ms |       127.0.0.1 | POST     "/api/fs/get"
+[GIN] 2024/12/05 - 14:14:08 | 200 |            0s |       127.0.0.1 | GET      "/api/public/offline_download_tools"
+[GIN] 2024/12/05 - 14:14:08 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:14:10 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:14:11 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:16:07 | 200 |            0s |       127.0.0.1 | POST     "/api/fs/list"
+[GIN] 2024/12/05 - 14:16:13 | 200 |    349.1437ms |       127.0.0.1 | POST     "/api/fs/list"
+[31mERRO[0m[2024-12-05 14:16:20] failed link /E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso: 您今日下载流量已超出1GB限制，购买VIP会员即可体验无限流量下载
+failed get link
+github.com/alist-org/alist/v3/internal/op.Link.func1
+	/source/internal/op/fs.go:260
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/source/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/source/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/source/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.Link
+	/source/internal/op/fs.go:276
+github.com/alist-org/alist/v3/internal/fs.link
+	/source/internal/fs/link.go:19
+github.com/alist-org/alist/v3/internal/fs.Link
+	/source/internal/fs/fs.go:48
+github.com/alist-org/alist/v3/server/handles.Down
+	/source/server/handles/down.go:33
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.Down
+	/source/server/middlewares/down.go:40
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/source/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:2092
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1700
+failed link 
+[GIN] 2024/12/05 - 14:16:20 | 200 |    131.8093ms |       127.0.0.1 | GET      "/d/E:/alist/123/电脑软件01/Acrobat-PRO-DC-2024.004.20243-x64-m0nkrus.iso?sign=_NDoi5Nz7Ng3tX4eVgmJrwCW1NyFSBqom5eRVTVxurw=:0"
+[GIN] 2024/12/05 - 14:16:20 | 302 |            0s |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2024/12/05 - 14:48:52 | 200 |    1.4902135s |       127.0.0.1 | POST     "/api/fs/list"
+[36mINFO[0m[2024-12-05 18:03:58] closing db                                   

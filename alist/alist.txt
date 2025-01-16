@@ -1,0 +1,5 @@
+http://127.0.0.1:5244/
+username: admin
+ password: yXDF58p3
+
+需要下载alist.exe放在根目录
