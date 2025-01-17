@@ -1,0 +1,39 @@
+在目标网站域名后添加  /cdn-cgi/trace 检测是否套cdn
+
+4.1、第一种方式：网站直接获取
+https://www.ssllabs.com/ssltest/index.html
+https://securityheaders.com/
+4.2、第二种方式：FOFA手动搜索获取
+ASN查询工具：https://tools.ipip.net/as.php
+目标网站查询工具：https://fofa.info
+查询命令：
+asn=="16509" && country=="US" && port=="443" && cert!="Let's Encrypt" && cert.issuer!="ZeroSSL" && status_code="200"
+这句话的意思是查询自己vps自治域美国区域，端口为443，不是由临时证书颁发机构颁发的证书，且http请求成功的网站。Let's Encrypt与ZeroSSL都是免费证书，有效期都是90天
+asn：（自治域号码）
+port=="443" （端口）
+cert!="Let's Encrypt" （不是Let's Encrypt类型的证书）
+cert.issuer!="ZeroSSL"（证书颁发者不是ZeroSSL）
+status_code="200"（HTTP 响应状态码，200的意思是Http请求成功）
+4.3、本地工具获取目标网站
+RealiTLScanner：https://github.com/XTLS/RealiTLScanner/releases
+3.1、在软件目录打开命令行窗口 CMD
+3.2、运行命令：
+将命令行中的1.1.1.1IP地址更换为自己VPS的IP地址
+RealiTLScanner-windows-64.exe -addr 1.1.1.1 -port 443 -thread 100 -timeOut 5 
+HTML
+4.4、域名推荐
+# 可作为目标网站的域名推荐
+www.icloud.com
+airbnb【这个不同的区有不同的域名建议自己搜索】
+https://www.airbnb.co.uk/
+https://www.airbnb.ca/
+https://www.airbnb.com.sg
+https://www.airbnb.com.au/
+https://www.airbnb.co.in
+addons.mozilla.org
+www.microsoft.com
+www.lovelive-anime.jp
+www.tesla.com
+wareval.com/
+www.nvidia.com/
+www.sap.com
